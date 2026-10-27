@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wordwall OCR V2 · Experimento independiente</title>
+  <link rel="stylesheet" href="./styles-v2.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="brand-mark">O</div>
+      <div><p class="eyebrow">OptiLab · experimento local e independiente</p><h1>Wordwall OCR · V2</h1><p class="lede">Captura → relecturas OCR → datos estructurados → regla académica. La captura permanece en este navegador.</p></div>
+    </header>
+
+    <div class="scope-note"><strong>Alcance:</strong> solo Wordwall. No modifica OptiLab ni reconoce LearningApps. OCR no autentica la captura ni al alumno.</div>
+
+    <section class="panel" aria-labelledby="input-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / Entrada</p><h2 id="input-title">Captura y criterio</h2></div><a class="small-link" href="./">Abrir V1</a></div>
+      <label class="dropzone" id="dropzone" for="image-file"><input id="image-file" type="file" accept="image/png,image/jpeg,image/webp,image/bmp"><span class="upload-icon">↑</span><strong>Selecciona o arrastra una captura Wordwall</strong><span>JPG, PNG, WebP o BMP · procesamiento local en el navegador</span></label>
+      <div class="workspace" id="workspace" hidden>
+        <div class="preview-column"><div class="subheading"><strong>Imagen seleccionada</strong><button class="quiet-button" id="clear-image" type="button">Quitar</button></div><img id="preview" alt="Vista previa de la captura"><p class="meta" id="file-meta"></p></div>
+        <div class="controls">
+          <label for="activity-id">ID configurado</label><input id="activity-id" value="22610275" autocomplete="off">
+          <label for="activity-title">Título configurado</label><input id="activity-title" value="Método de M Grande" autocomplete="off">
+          <label for="policy">Regla académica</label><select id="policy"><option value="PUNTUACION_PERFECTA">PUNTUACION_PERFECTA · cierre + resultado completo</option><option value="ACTIVIDAD_COMPLETADA">ACTIVIDAD_COMPLETADA · cierre satisfactorio</option></select>
+          <button class="primary-button" id="analyze" type="button" disabled>Capturar texto y analizar</button>
+          <p class="helper">Pasadas adaptativas: página completa y recortes proporcionales central y ampliado; máximo 5 lecturas. Las coincidencias OCR son corroboración técnica correlacionada, no evidencia independiente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel result-panel" id="result-panel" hidden aria-labelledby="result-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / Salida</p><h2 id="result-title">Resultado estructurado</h2></div><span id="decision" class="decision">INDETERMINADO</span></div>
+      <div id="progress" class="progress" hidden>Preparando motor OCR local…</div>
+      <div class="metrics">
+        <article><span>Puntos</span><strong id="score">—</strong></article><article><span>Máximo</span><strong id="maximum">—</strong></article><article><span>Porcentaje</span><strong id="percentage">—</strong></article>
+        <article><span>Finalización detectada</span><strong id="finished">—</strong></article><article><span>Finalización satisfactoria</span><strong id="success">—</strong></article><article><span>Duración de resolución</span><strong id="duration">—</strong></article>
+        <article><span>Actividad reconocida</span><strong id="activity">—</strong></article><article><span>Coincide con configuración</span><strong id="matched">—</strong></article><article><span>Autenticidad</span><strong>No verificada</strong></article>
+      </div>
+      <div class="ruleline"><span>Regla aplicada</span><strong id="selected-rule"></strong></div>
+      <div class="reason-box"><h3>Motivos y advertencias</h3><ul id="reasons"></ul></div>
+      <div class="passes-heading"><h3>Pasadas OCR</h3><span id="runtime"></span><button class="quiet-button" id="download-json" type="button" disabled>Descargar JSON</button></div>
+      <div id="pass-list" class="pass-list"></div>
+      <p class="integrity-note">Distingue tres afirmaciones: detectar el cierre, leer un resultado perfecto y verificar la autenticidad. Esta demo solo intenta las dos primeras; la tercera siempre permanece falsa.</p>
+    </section>
+    <footer><a href="./README-V2.md">Instrucciones y límites del experimento</a> · Capturas sin subir a servidores · <a href="./INFORME-V2.md">Informe comparativo</a></footer>
+  </main>
+  <script type="module" src="./src/app-v2.mjs"></script>
+</body>
+</html>

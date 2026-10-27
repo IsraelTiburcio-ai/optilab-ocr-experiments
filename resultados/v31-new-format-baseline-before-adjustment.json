@@ -1,0 +1,839 @@
+{
+  "datasetType": "CAPTURAS REALES NUEVAS; conjunto holdout OCR V3.1 antes de ajustes; LearningApps excluido; etiquetas visuales independientes.",
+  "generatedAt": "2026-10-27T02:05:24.702Z",
+  "engine": "Tesseract.js 7.0.0",
+  "languages": [
+    "spa",
+    "eng"
+  ],
+  "workerStartupMs": 144,
+  "preV31RulesChanged": true,
+  "v31AdjustmentsApplied": false,
+  "count": 4,
+  "rows": [
+    {
+      "filename": "502464710_1776704356389446_7827323037009430339_n.jpg",
+      "sourceSha256": "4cac2808e4f6311a01354c7333018863ea9cd1411af766e600dde6a9c252a986",
+      "visualReference": {
+        "filename": "502464710_1776704356389446_7827323037009430339_n.jpg",
+        "format": "JPEG",
+        "dimensions": {
+          "width": 301,
+          "height": 301
+        },
+        "bytes": 9528,
+        "sha256": "4cac2808e4f6311a01354c7333018863ea9cd1411af766e600dde6a9c252a986",
+        "duplicateOf": null,
+        "datasetSplit": "NEW_CAPTURE",
+        "provider": "NO_DETERMINABLE",
+        "providerEvidence": "Escena de juego recortada, sin logotipo ni URL.",
+        "screenType": "CONTADOR_O_PROGRESO_AMBIGUO",
+        "score": null,
+        "maxScore": null,
+        "scoreMeaning": "NO_DETERMINABLE",
+        "durationSeconds": null,
+        "pieceCount": null,
+        "visibleText": "5/5 sobre un letrero en una escena de juego; no aparece una tarjeta de resultados ni una señal final inequívoca.",
+        "finalizationReference": "NO_CONFIRMADA",
+        "identityVisible": null,
+        "labelStatus": "VISUAL_REVISADA",
+        "eligibility": "NEW_HOLDOUT_OCR",
+        "eligibilityReason": "Se conserva como prueba negativa de un contador 5/5 sin contexto suficiente para llamarlo puntuación o progreso."
+      },
+      "ocrMs": 112,
+      "passCount": 5,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "",
+          "elapsedMs": 23
+        },
+        {
+          "pass": "full-sparse",
+          "region": "full",
+          "psm": "sparse",
+          "confidence": 0,
+          "text": "",
+          "elapsedMs": 5
+        },
+        {
+          "pass": "center-auto",
+          "region": "center",
+          "psm": "auto",
+          "confidence": 38,
+          "text": "a\n",
+          "elapsedMs": 39
+        },
+        {
+          "pass": "center-sparse",
+          "region": "center",
+          "psm": "sparse",
+          "confidence": 23,
+          "text": "a\n\nEs Be\n",
+          "elapsedMs": 42
+        },
+        {
+          "pass": "wide-sparse",
+          "region": "wide",
+          "psm": "sparse",
+          "confidence": 0,
+          "text": "",
+          "elapsedMs": 3
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": null,
+        "max_score": null,
+        "percentage": null,
+        "score_perfect_detected": null,
+        "score_evidence": {
+          "agreement_passes": [],
+          "observations": [],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "",
+            "confidence": 95
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "a\n",
+            "confidence": 38
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "a\n\nEs Be\n",
+            "confidence": 23
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "",
+            "confidence": 0
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "existingV3Interpretation": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": false,
+        "score": null,
+        "maxScore": null,
+        "percentage": null,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": null,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 5,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "",
+            "confidence": 95
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "a\n",
+            "confidence": 38
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "a\n\nEs Be\n",
+            "confidence": 23
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "",
+            "confidence": 0
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "PENDIENTE_REVISION",
+            "academicGrade": null,
+            "reasons": [
+              "El catálogo no tiene aprobación docente para aceptar evidencia contextual."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "502905858_1776704386389443_3457655670125621835_n.jpg",
+      "sourceSha256": "d6778d9b3854b4823b513a843aa23b8e4149c8bf1cce7cba4d2191e68702f962",
+      "visualReference": {
+        "filename": "502905858_1776704386389443_3457655670125621835_n.jpg",
+        "format": "JPEG",
+        "dimensions": {
+          "width": 734,
+          "height": 302
+        },
+        "bytes": 15960,
+        "sha256": "d6778d9b3854b4823b513a843aa23b8e4149c8bf1cce7cba4d2191e68702f962",
+        "duplicateOf": null,
+        "datasetSplit": "NEW_CAPTURE",
+        "provider": "ROMPECABEZAS_EXTERNO_NO_IDENTIFICADO",
+        "providerEvidence": "Tarjeta textual de piezas/tiempo; no se ve marca ni URL.",
+        "screenType": "RESULTADO_DE_ROMPECABEZAS",
+        "score": null,
+        "maxScore": null,
+        "scoreMeaning": "NO_APLICA",
+        "durationSeconds": 206,
+        "pieceCount": 28,
+        "visibleText": "¡Felicidades! · Tiempo [mm:ss]: 3:26 · Número de piezas: 28 · controles de compartir/menú visibles.",
+        "finalizationReference": "CONFIRMADA_POR_RESUMEN_Y_FELICITACION",
+        "identityVisible": null,
+        "labelStatus": "VISUAL_REVISADA",
+        "eligibility": "NEW_HOLDOUT_OCR",
+        "eligibilityReason": "Caso real apto para perfil PUZZLE_COMPLETE; piezas son metadato, nunca puntuación."
+      },
+      "ocrMs": 191,
+      "passCount": 2,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 93,
+          "text": "¡Felicidades!\nTiempo [mm:ss]: 3:26\nNúmero de piezas: 28\n",
+          "elapsedMs": 88
+        },
+        {
+          "pass": "full-sparse",
+          "region": "full",
+          "psm": "sparse",
+          "confidence": 88,
+          "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n3:26\n\nNúmero de piezas: 28\n\ne\n",
+          "elapsedMs": 103
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": null,
+        "max_score": null,
+        "percentage": null,
+        "score_perfect_detected": null,
+        "score_evidence": {
+          "agreement_passes": [],
+          "observations": [],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡Felicidades!\nTiempo [mm:ss]: 3:26\nNúmero de piezas: 28\n",
+            "confidence": 93
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n3:26\n\nNúmero de piezas: 28\n\ne\n",
+            "confidence": 88
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "existingV3Interpretation": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": false,
+        "score": null,
+        "maxScore": null,
+        "percentage": null,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": null,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 2,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡Felicidades!\nTiempo [mm:ss]: 3:26\nNúmero de piezas: 28\n",
+            "confidence": 93
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n3:26\n\nNúmero de piezas: 28\n\ne\n",
+            "confidence": 88
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "PENDIENTE_REVISION",
+            "academicGrade": null,
+            "reasons": [
+              "El catálogo no tiene aprobación docente para aceptar evidencia contextual."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "642892215_3515487508604296_9144621108481121291_n.jpg",
+      "sourceSha256": "f4cbcae1e87d48e3fe7849f43ea2c6066acd500bb068834441d0f270affc4259",
+      "visualReference": {
+        "filename": "642892215_3515487508604296_9144621108481121291_n.jpg",
+        "format": "JPEG",
+        "dimensions": {
+          "width": 1080,
+          "height": 1121
+        },
+        "bytes": 34812,
+        "sha256": "f4cbcae1e87d48e3fe7849f43ea2c6066acd500bb068834441d0f270affc4259",
+        "duplicateOf": null,
+        "datasetSplit": "NEW_CAPTURE",
+        "provider": "Genially",
+        "providerEvidence": "Marca Powered by Genially visible en pantalla.",
+        "screenType": "PANTALLA_FINAL_FELICITACION",
+        "score": null,
+        "maxScore": null,
+        "scoreMeaning": "NO_APLICA",
+        "durationSeconds": null,
+        "pieceCount": null,
+        "visibleText": "¡ENHORABUENA! · icono de aprobación · Volver a empezar.",
+        "finalizationReference": "CONFIRMADA_POR_TEXTO_Y_ACCION_REINICIAR",
+        "identityVisible": null,
+        "labelStatus": "VISUAL_REVISADA",
+        "eligibility": "NEW_HOLDOUT_OCR",
+        "eligibilityReason": "Caso real para perfil COMPLETION_ONLY; el mensaje no contiene puntuación ni nombre de actividad."
+      },
+      "ocrMs": 512,
+      "passCount": 5,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 76,
+          "text": "¡ENHORABUENA!\n\nNe\n\nN “\n\n",
+          "elapsedMs": 102
+        },
+        {
+          "pass": "full-sparse",
+          "region": "full",
+          "psm": "sparse",
+          "confidence": 49,
+          "text": "¡ENHORABUENA!\n\nNe\n\n*\n\nE\n\n(G genialy\n",
+          "elapsedMs": 147
+        },
+        {
+          "pass": "center-auto",
+          "region": "center",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "Volver a empezar\n",
+          "elapsedMs": 36
+        },
+        {
+          "pass": "center-sparse",
+          "region": "center",
+          "psm": "sparse",
+          "confidence": 77,
+          "text": "E\n\n=\n\nE=\n\nVolver a empezar\n",
+          "elapsedMs": 67
+        },
+        {
+          "pass": "wide-sparse",
+          "region": "wide",
+          "psm": "sparse",
+          "confidence": 30,
+          "text": "ENHORABUENA\n\nUNE\n\nLo\n\nEEE\n",
+          "elapsedMs": 160
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": null,
+        "max_score": null,
+        "percentage": null,
+        "score_perfect_detected": null,
+        "score_evidence": {
+          "agreement_passes": [],
+          "observations": [],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡ENHORABUENA!\n\nNe\n\nN “\n\n",
+            "confidence": 76
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡ENHORABUENA!\n\nNe\n\n*\n\nE\n\n(G genialy\n",
+            "confidence": 49
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "Volver a empezar\n",
+            "confidence": 95
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "E\n\n=\n\nE=\n\nVolver a empezar\n",
+            "confidence": 77
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "ENHORABUENA\n\nUNE\n\nLo\n\nEEE\n",
+            "confidence": 30
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "existingV3Interpretation": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": false,
+        "score": null,
+        "maxScore": null,
+        "percentage": null,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": null,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 5,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡ENHORABUENA!\n\nNe\n\nN “\n\n",
+            "confidence": 76
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡ENHORABUENA!\n\nNe\n\n*\n\nE\n\n(G genialy\n",
+            "confidence": 49
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "Volver a empezar\n",
+            "confidence": 95
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "E\n\n=\n\nE=\n\nVolver a empezar\n",
+            "confidence": 77
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "ENHORABUENA\n\nUNE\n\nLo\n\nEEE\n",
+            "confidence": 30
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "PENDIENTE_REVISION",
+            "academicGrade": null,
+            "reasons": [
+              "El catálogo no tiene aprobación docente para aceptar evidencia contextual."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "653709479_3537396559746724_2807866198313383516_n.jpg",
+      "sourceSha256": "3188ca701d6308a5409093c9cecc722667172d926dfed157435ef48984eba23d",
+      "visualReference": {
+        "filename": "653709479_3537396559746724_2807866198313383516_n.jpg",
+        "format": "JPEG",
+        "dimensions": {
+          "width": 628,
+          "height": 251
+        },
+        "bytes": 17410,
+        "sha256": "3188ca701d6308a5409093c9cecc722667172d926dfed157435ef48984eba23d",
+        "duplicateOf": null,
+        "datasetSplit": "NEW_CAPTURE",
+        "provider": "ROMPECABEZAS_EXTERNO_NO_IDENTIFICADO",
+        "providerEvidence": "Tarjeta textual y controles; no se ve marca ni URL.",
+        "screenType": "RESULTADO_DE_ROMPECABEZAS",
+        "score": null,
+        "maxScore": null,
+        "scoreMeaning": "NO_APLICA",
+        "durationSeconds": 172,
+        "pieceCount": 24,
+        "visibleText": "¡Felicidades! · Tiempo [mm:ss]: 2:52 · Número de piezas: 24 · botones de reiniciar/compartir.",
+        "finalizationReference": "CONFIRMADA_POR_RESUMEN_Y_FELICITACION",
+        "identityVisible": null,
+        "labelStatus": "VISUAL_REVISADA",
+        "eligibility": "NEW_HOLDOUT_OCR",
+        "eligibilityReason": "Caso real para perfil PUZZLE_COMPLETE; piezas son metadato, nunca puntuación."
+      },
+      "ocrMs": 232,
+      "passCount": 2,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 91,
+          "text": "¡Felicidades!\nTiempo [mm:ss]: 2:52\nNúmero de piezas: 24\n",
+          "elapsedMs": 110
+        },
+        {
+          "pass": "full-sparse",
+          "region": "full",
+          "psm": "sparse",
+          "confidence": 76,
+          "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n2:52\n\nNúmero de piezas: 24\n\nsss\n\nLl Y\n\nsss\n\nCC\n",
+          "elapsedMs": 122
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": null,
+        "max_score": null,
+        "percentage": null,
+        "score_perfect_detected": null,
+        "score_evidence": {
+          "agreement_passes": [],
+          "observations": [],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡Felicidades!\nTiempo [mm:ss]: 2:52\nNúmero de piezas: 24\n",
+            "confidence": 91
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n2:52\n\nNúmero de piezas: 24\n\nsss\n\nLl Y\n\nsss\n\nCC\n",
+            "confidence": 76
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "existingV3Interpretation": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": false,
+        "score": null,
+        "maxScore": null,
+        "percentage": null,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": null,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 2,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "¡Felicidades!\nTiempo [mm:ss]: 2:52\nNúmero de piezas: 24\n",
+            "confidence": 91
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "¡Felicidades!\n\nTiempo [mm:ss]:\n\n2:52\n\nNúmero de piezas: 24\n\nsss\n\nLl Y\n\nsss\n\nCC\n",
+            "confidence": 76
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "PENDIENTE_REVISION",
+            "academicGrade": null,
+            "reasons": [
+              "El catálogo no tiene aprobación docente para aceptar evidencia contextual."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    }
+  ]
+}

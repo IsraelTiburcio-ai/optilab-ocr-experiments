@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "tesseract.js": "7.0.0"
+  },
+  "scripts": {
+    "test": "node --test src/parser.test.mjs src/parser-v2.test.mjs src/engine-v3.test.mjs src/classifier-v31.test.mjs src/benchmark-summary-v31.test.mjs",
+    "ocr": "node src/benchmark.mjs",
+    "serve": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "serve:v2": "python3 -m http.server 4174 --bind 127.0.0.1",
+    "serve:v3": "python3 -m http.server 4175 --bind 127.0.0.1",
+    "serve:v31": "python3 -m http.server 4176 --bind 127.0.0.1",
+    "serve:v31:lan": "python3 -m http.server 4176 --bind 0.0.0.0",
+    "inventory:v31": "python3 src/inventory_dataset_v31.py",
+    "prepare:v31": "python3 src/inventory_dataset_v31.py && python3 src/generate_synthetic_v31.py",
+    "baseline:v31": "python3 src/prepare_crops_v31.py && node src/benchmark_v31_baseline.mjs",
+    "benchmark:v31": "python3 src/prepare_benchmark_crops_v31.py && node src/benchmark_v31.mjs",
+    "ocr:downloads:v2": "python3 src/prepare_download_crops.py && node src/benchmark-downloads-v2.mjs",
+    "ocr:downloads:v3": "python3 src/generate_adversarial_v3.py && python3 src/prepare_download_crops.py && python3 src/prepare_synthetic_crops_v3.py && node src/benchmark-v3.mjs"
+  }
+}

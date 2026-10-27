@@ -1,0 +1,516 @@
+{
+  "generatedAt": "2026-10-26T22:37:32.594Z",
+  "datasetImages": 7,
+  "labels": "Inspección visual manual; actividad coincidente solo se marca false para la captura que evidencia otro título, null cuando no se reconoce el recurso objetivo.",
+  "decisionScoring": "Otra actividad es NO_ACREDITABLE para el recurso objetivo. Las otras seis son INDETERMINADO porque no demuestran visualmente ser el recurso 22610275.",
+  "syntheticTestsIncluded": false,
+  "workerStartupMs": 138,
+  "v1": {
+    "finalization": {
+      "correct": 1,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": false,
+          "actual": false,
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": true,
+          "actual": false,
+          "correct": false
+        }
+      ]
+    },
+    "scoreAndMaximum": {
+      "correct": 5,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": [
+            14,
+            14
+          ],
+          "actual": [
+            14,
+            14
+          ],
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": [
+            6,
+            6
+          ],
+          "actual": [
+            6,
+            5
+          ],
+          "correct": false
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": [
+            5,
+            5
+          ],
+          "actual": [
+            55,
+            null
+          ],
+          "correct": false
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": [
+            6,
+            6
+          ],
+          "actual": [
+            6,
+            6
+          ],
+          "correct": true
+        }
+      ],
+      "scoreBearingOriginals": 4,
+      "exactOnScoreBearing": 2
+    },
+    "durationSeconds": {
+      "correct": 1,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": 67,
+          "actual": null,
+          "correct": false
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": 86,
+          "actual": null,
+          "correct": false
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": 127,
+          "actual": null,
+          "correct": false
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": 70,
+          "actual": null,
+          "correct": false
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": null,
+          "actual": null,
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": 12.3,
+          "actual": null,
+          "correct": false
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": 43.5,
+          "actual": null,
+          "correct": false
+        }
+      ]
+    },
+    "decisions": {
+      "correct": 6,
+      "total": 7,
+      "indeterminate": 7,
+      "falsePositives": 0,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": "NO_ACREDITABLE",
+          "actual": "INDETERMINADO",
+          "correct": false
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        }
+      ]
+    },
+    "latency": {
+      "runs": 7,
+      "meanMs": 376,
+      "perImageMs": [
+        301,
+        395,
+        153,
+        81,
+        750,
+        312,
+        643
+      ]
+    }
+  },
+  "v2": {
+    "finalization": {
+      "correct": 7,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": false,
+          "actual": false,
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": true,
+          "actual": true,
+          "correct": true
+        }
+      ]
+    },
+    "scoreAndMaximum": {
+      "correct": 7,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": [
+            14,
+            14
+          ],
+          "actual": [
+            14,
+            14
+          ],
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": [
+            6,
+            6
+          ],
+          "actual": [
+            6,
+            6
+          ],
+          "correct": true
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": [
+            null,
+            null
+          ],
+          "actual": [
+            null,
+            null
+          ],
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": [
+            5,
+            5
+          ],
+          "actual": [
+            5,
+            5
+          ],
+          "correct": true
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": [
+            6,
+            6
+          ],
+          "actual": [
+            6,
+            6
+          ],
+          "correct": true
+        }
+      ],
+      "scoreBearingOriginals": 4,
+      "exactOnScoreBearing": 4
+    },
+    "durationSeconds": {
+      "correct": 7,
+      "total": 7,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": 67,
+          "actual": 67,
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": 86,
+          "actual": 86,
+          "correct": true
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": 127,
+          "actual": 127,
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": 70,
+          "actual": 70,
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": null,
+          "actual": null,
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": 12.3,
+          "actual": 12.3,
+          "correct": true
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": 43.5,
+          "actual": 43.5,
+          "correct": true
+        }
+      ]
+    },
+    "decisions": {
+      "correct": 7,
+      "total": 7,
+      "indeterminate": 6,
+      "falsePositives": 0,
+      "checks": [
+        {
+          "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+          "expected": "NO_ACREDITABLE",
+          "actual": "NO_ACREDITABLE",
+          "correct": true
+        },
+        {
+          "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        },
+        {
+          "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+          "expected": "INDETERMINADO",
+          "actual": "INDETERMINADO",
+          "correct": true
+        }
+      ]
+    },
+    "latency": {
+      "runs": 7,
+      "meanMs": 1614,
+      "perImageMs": [
+        1039,
+        1563,
+        640,
+        862,
+        775,
+        1554,
+        4862
+      ]
+    }
+  },
+  "falsePositiveRateMeasurable": false,
+  "falsePositiveRateReason": "No hay ejemplos positivos de identidad objetivo conocida; el conjunto no permite estimar una tasa estadística de falsos positivos."
+}

@@ -1,0 +1,26 @@
+{
+  "version": "3.1",
+  "description": "Perfiles configurables por tipo de evidencia. Las señales son léxicas y conservadoras; un cambio de proveedor exige nuevas capturas etiquetadas.",
+  "patterns": {
+    "puzzleCompletionCue": "\\b(felicidades|puzzle completed|rompecabezas completado)\\b",
+    "puzzleTime": "\\btiempo(?:\\s*\\[mm:ss\\])?\\s*[:=]?\\s*(\\d{1,2}:\\d{2}(?:\\.\\d+)?|\\d+(?:[.,]\\d+)?\\s*s)\\b",
+    "pieceCount": "\\bnumero\\s+de\\s+piezas?\\s*[:=]?\\s*(\\d{1,4})\\b",
+    "geniallyBrand": "\\bgenial(?:ly|y)\\b",
+    "replayAction": "\\b(volver\\s+a\\s+empezar|jugar\\s+de\\s+nuevo|reiniciar|start\\s+again|play\\s+again)\\b",
+    "positiveCue": "\\b(enhorabuena|felicidades|congratulations)\\b",
+    "wordwallFinal": "\\b(game\\s+complete|juego\\s+completado)\\b",
+    "genericFinal": "\\b(game\\s+complete|juego\\s+completado|actividad\\s+completada|has\\s+terminado|has\\s+completado|puzzle\\s+completed)\\b",
+    "feedbackOnly": "\\b(muy\\s+bien|bien\\s+hecho|correcto|correct|well\\s+done|good\\s+job|lograste\\s+dar\\s+con\\s+las?\\s+respuestas?\\s+correctas?)\\b",
+    "fraction": "\\b(\\d{1,4})\\s*[/|]\\s*(\\d{1,4})\\b",
+    "activeCue": "\\b(pregunta\\s+\\d+|siguiente\\s+pregunta|en\\s+progreso|time\\s+left|tiempo\\s+restante|cambiar\\s+plantilla|inicia\\s+en|editar\\s+contenido)\\b",
+    "batteryPercent": "\\b(bateria|battery)\\s*\\d{1,3}\\s*%"
+  },
+  "profiles": [
+    { "id": "SCORE_FINAL", "label": "Puntuación final", "description": "Señal de cierre más una fracción final válida. Puede comparar score y máximo; no prueba identidad ni autenticidad." },
+    { "id": "COMPLETION_ONLY", "label": "Solo finalización", "description": "Cierre inequívoco sin puntuación. No infiere perfección ni calificación." },
+    { "id": "PUZZLE_COMPLETE", "label": "Rompecabezas completado", "description": "Felicidades más tiempo etiquetado y número de piezas etiquetado. Las piezas son metadato, nunca score." },
+    { "id": "FEEDBACK_ONLY", "label": "Retroalimentación", "description": "Correcto, muy bien o enhorabuena sin suficientes señales terminales." },
+    { "id": "PROGRESS_ONLY", "label": "Progreso sin cierre", "description": "Fracción aislada o progreso sin señal de fin; no se toma como score final." },
+    { "id": "UNKNOWN_LAYOUT", "label": "Formato desconocido", "description": "No hay suficientes señales para aplicar un perfil conocido." }
+  ]
+}

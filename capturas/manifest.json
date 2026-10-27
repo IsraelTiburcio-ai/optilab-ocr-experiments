@@ -1,0 +1,582 @@
+{
+  "activityContext": {
+    "provider": "wordwall",
+    "activityId": "22610275",
+    "activityTitle": "Método de M Grande",
+    "activityUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+    "embedUrl": "https://wordwall.net/es/embed/cc167dda64954e3dbb379706dd8348c8?themeId=66&templateId=35&fontStackId=0"
+  },
+  "labeling": "Etiquetas visuales manuales asignadas antes de ejecutar OCR. Las variantes heredan la captura de origen y no son partidas independientes.",
+  "images": [
+    {
+      "filename": "capturas/originales/wordwall-container-control.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "c346ac533bee9ca9e8e4eaff5ffeb34b820d8e4d40ca0a3cbf20b50eb5665fce",
+      "sha256": "c346ac533bee9ca9e8e4eaff5ffeb34b820d8e4d40ca0a3cbf20b50eb5665fce",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "contenedor_sin_juego",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "finished": null,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-container-inicio.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "4b5ab0255e4358dc3d21466aa6fdb101637ceac4f327d40079b7ecc1434463fe",
+      "sha256": "4b5ab0255e4358dc3d21466aa6fdb101637ceac4f327d40079b7ecc1434463fe",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "pantalla_inicial",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-container-running.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf",
+      "sha256": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 118,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "sha256": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "pantalla_inicial",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "sha256": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Incorrecto",
+        "timerRemainingSeconds": 106,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "sha256": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 1,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Correcto",
+        "timerRemainingSeconds": 79,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-prompt-1.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "b05cc2af0dc0ac936b79b57c33d73f151957db763afcd5149070746a23b6d098",
+      "sha256": "b05cc2af0dc0ac936b79b57c33d73f151957db763afcd5149070746a23b6d098",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 99,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-prompt-2.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "814cd968ab13206ff99f6ff9d375b7a664af8c57749b0faa8feee6de3b694f7d",
+      "sha256": "814cd968ab13206ff99f6ff9d375b7a664af8c57749b0faa8feee6de3b694f7d",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 2,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Correcto",
+        "timerRemainingSeconds": 54,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-prompt-error-run.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "998d5303a0de0b71ab9ba318a54ed99454caa2df26a5fb9821d0918c6b1c7746",
+      "sha256": "998d5303a0de0b71ab9ba318a54ed99454caa2df26a5fb9821d0918c6b1c7746",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-respuesta-correcta.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "c230208e5746be2d1db020d0e8f765564a5264eabfcea8ad825cd80001d5fdd5",
+      "sha256": "c230208e5746be2d1db020d0e8f765564a5264eabfcea8ad825cd80001d5fdd5",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 1,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 80,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "sha256": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "no_acreditable"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-resultado-ronda-2.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "sha256": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "no_acreditable"
+      },
+      "exactDuplicateOf": "capturas/originales/wordwall-resultado-ronda-1.png"
+    },
+    {
+      "filename": "capturas/originales/wordwall-ronda-error-feedback.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "6a63aa4f8741d5d5272f09acedd966551e4b75e3c1e2c9ac64134c9b8736fa86",
+      "sha256": "6a63aa4f8741d5d5272f09acedd966551e4b75e3c1e2c9ac64134c9b8736fa86",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 2,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 67,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-ronda-error-prompt.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "f69e2decd5c6b77187feddfede544242afd00e8f97316180cee570c5cbd1f9e8",
+      "sha256": "f69e2decd5c6b77187feddfede544242afd00e8f97316180cee570c5cbd1f9e8",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/originales/wordwall-ronda-error-start.png",
+      "category": "original",
+      "derivedFrom": null,
+      "sourceCaptureId": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf",
+      "sha256": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf",
+      "transform": "ninguna; archivo original copiado sin modificar",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 118,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": "capturas/originales/wordwall-container-running.png"
+    },
+    {
+      "filename": "capturas/variantes/v01-inicio-resize-50.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-embed-inicio.png",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "sha256": "d5f0ff45d418c2db4c18c2722d42745650b858112259c71c468ad1f38c3420ad",
+      "transform": "Redimensionada al 50%; conserva el encuadre y el contenido visible.",
+      "reference": {
+        "state": "pantalla_inicial",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v02-inicio-jpeg-q35.jpg",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-embed-inicio.png",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "sha256": "be52c3bda15ea8b78ee3b3aa8dd097106f2bc72404fb85aea093e087c828618e",
+      "transform": "JPEG calidad 35; conserva el encuadre. Compresión con pérdida.",
+      "reference": {
+        "state": "pantalla_inicial",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v03-acierto-contraste-bajo.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-feedback-correcto.png",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "sha256": "144531bc8a03ddb21488d2cfc5bf49b2781b7792918c28d2471a93c94058b65b",
+      "transform": "Contraste reducido a 48%; conserva el encuadre.",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 1,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Correcto",
+        "timerRemainingSeconds": 79,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v04-acierto-resize-40.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-feedback-correcto.png",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "sha256": "9138d0cc3153d0f0afbdd5974497bf4c673379b972d57e9ba8786830c3ef9038",
+      "transform": "Redimensionada al 40%; conserva el encuadre.",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 1,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Correcto",
+        "timerRemainingSeconds": 79,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v05-error-jpeg-q25.jpg",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-error-feedback.png",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "sha256": "8a41a40f218321e9e46a40f938d7e378502c15b425ebaa1376282126a3f2d709",
+      "transform": "JPEG calidad 25; conserva el encuadre. Compresión con pérdida.",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Incorrecto",
+        "timerRemainingSeconds": 106,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v06-error-resize-50.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-error-feedback.png",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "sha256": "6b507a33e28860483e28f09a95be28d7061350ba25ff8a08e0772ffc07a3de71",
+      "transform": "Redimensionada al 50%; conserva el encuadre.",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": "Incorrecto",
+        "timerRemainingSeconds": 106,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v07-final3-resize-40.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "b19e90b22a5461385f9b603a9f7e5e33083394bfb1c4caf02bae441159e9c661",
+      "transform": "Redimensionada al 40%; conserva la tarjeta final.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v08-final3-jpeg-q30.jpg",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "b060602c9745d47b3c31741944b455a97d9a5e33bc5f5d71a09671b0d78d85e8",
+      "transform": "JPEG calidad 30; conserva el encuadre. Compresión con pérdida.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v09-final3-gris-contraste-bajo.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "07ceb43716645488542038d24d6279ab6a7deff1bd5647673e6c0d94239bc637",
+      "transform": "Escala de grises y contraste 55%; conserva el encuadre.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "df59c815a00d0c4dbb781c5c975e8ab2750abbf85db41218e33f82f189d4cf73",
+      "transform": "Recorte central que conserva la tarjeta y elimina la mayor parte del fondo.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v11-final0-jpeg-q35.jpg",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "sha256": "2884622963ffc4d623baac8073222887c09533cebcae9ce9f3c4c85399865fb4",
+      "transform": "JPEG calidad 35; conserva el encuadre. Compresión con pérdida.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "no_acreditable"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v12-partida-contraste-bajo.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-container-running.png",
+      "sourceCaptureId": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf",
+      "sha256": "e07921d9e92501e0adc0586fa6935974f1c85cc5b0c2eb0f4ded7da51d9c619c",
+      "transform": "Contraste reducido a 50%; conserva el encuadre.",
+      "reference": {
+        "state": "partida_en_curso",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "marcador_en_curso",
+        "finished": false,
+        "feedback": null,
+        "timerRemainingSeconds": 118,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "sha256": "be7d7b51ed06ae133eb448925ea38923bb9fdebd2e743f99ae0c4f64c7939ac1",
+      "transform": "Recorte central de la tarjeta final para probar OCR por región.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "no_acreditable"
+      },
+      "exactDuplicateOf": null
+    },
+    {
+      "filename": "capturas/variantes/v14-final3-upscale-2x.png",
+      "category": "variant",
+      "derivedFrom": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "sha256": "c1248758866db376eee91648f5bb4fbb9a1464228643830ff8459608791d1dab",
+      "transform": "Redimensionada al 200% para comparar escalado. Conserva el contenido.",
+      "reference": {
+        "state": "fin_por_tiempo",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "puntuacion_final",
+        "finished": true,
+        "feedback": "Se acabó el tiempo",
+        "timerRemainingSeconds": null,
+        "decision": "indeterminado"
+      },
+      "exactDuplicateOf": null
+    }
+  ]
+}

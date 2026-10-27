@@ -1,0 +1,24 @@
+{
+  "catalogName": "OptiLab · catálogo experimental V3",
+  "activities": [
+    {
+      "id": "wordwall-metodo-m-grande",
+      "provider": "wordwall",
+      "resourceId": "22610275",
+      "title": "Método de M Grande",
+      "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+      "embedUrl": "https://wordwall.net/es/embed/cc167dda64954e3dbb379706dd8348c8?themeId=66&templateId=35&fontStackId=0",
+      "gymId": "gimnasio-optimizacion-i-demo",
+      "gradingPolicy": "PUNTUACION_PERFECTA",
+      "verificationMode": "STRICT",
+      "allowContextualEvidence": true,
+      "contextualApprovalLabel": "aprobación docente simulada solo para el experimento",
+      "knownOtherTitles": ["Características del M.P.L.", "Actividad B"]
+    }
+  ],
+  "policyDefinitions": {
+    "PUNTUACION_PERFECTA": { "enabled": true, "requires": ["finalización", "fracción válida completa"] },
+    "ACTIVIDAD_COMPLETADA": { "enabled": true, "requires": ["finalización satisfactoria"], "warning": "Solo si completar la actividad representa el objetivo académico." },
+    "UMBRAL_CONFIGURADO": { "enabled": false, "requires": ["umbral documentado por la profesora", "significado comprobado de la puntuación"] }
+  }
+}

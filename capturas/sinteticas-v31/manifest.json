@@ -1,0 +1,209 @@
+{
+  "datasetType": "SINTÉTICO — imágenes generadas por Pillow, rotuladas; no son partidas reales ni capturas de estudiantes.",
+  "watermark": "SINTÉTICO · NO ES CAPTURA REAL",
+  "fixtures": [
+    {
+      "filename": "synthetic-puzzle-final.png",
+      "purpose": "Puzle sintético final; esperado PUZZLE_COMPLETE, 206 s, 28 piezas, sin score.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "PUZZLE_COMPLETE",
+        "finalization": true,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": 206,
+        "pieceCount": 28
+      }
+    },
+    {
+      "filename": "synthetic-puzzle-mid-feedback.png",
+      "purpose": "Felicitación intermedia sintética; no hay resumen ni cierre inequívoco.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "UNKNOWN_LAYOUT",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-feedback-muy-bien.png",
+      "purpose": "Retroalimentación intermedia sintética; no finaliza.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "FEEDBACK_ONLY",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-feedback-correcto.png",
+      "purpose": "Feedback sintético; no finaliza.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "FEEDBACK_ONLY",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-progress-5of5.png",
+      "purpose": "Progreso completo aparente sintético sin pantalla final.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "PROGRESS_ONLY",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-has-terminado.png",
+      "purpose": "Cierre genérico sintético con acción terminal; solo finalización.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "COMPLETION_ONLY",
+        "finalization": true,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-wordwall-perfect.png",
+      "purpose": "Resultado sintético final perfecto; perfil SCORE_FINAL.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "SCORE_FINAL",
+        "finalization": true,
+        "score": 14,
+        "maxScore": 14,
+        "durationSeconds": 67,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-wordwall-nonperfect.png",
+      "purpose": "Resultado sintético final no perfecto; resultado técnico insuficiente, sin calificación académica.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "SCORE_FINAL",
+        "finalization": true,
+        "score": 4,
+        "maxScore": 5,
+        "durationSeconds": 34,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-wordwall-battery.png",
+      "purpose": "Resultado sintético final perfecto con batería; el porcentaje de batería no sustituye score.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "SCORE_FINAL",
+        "finalization": true,
+        "score": 6,
+        "maxScore": 6,
+        "durationSeconds": 45,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-puzzle-pieces-only.png",
+      "purpose": "Metadato de piezas en fase no final; no es score ni cierre.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "UNKNOWN_LAYOUT",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": 28
+      }
+    },
+    {
+      "filename": "synthetic-unknown-layout.png",
+      "purpose": "Formato sin señales de puntuación o finalización.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "UNKNOWN_LAYOUT",
+        "finalization": null,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-other-game-running.png",
+      "purpose": "Partida activa de otro juego sintético; el título visible no pertenece a la actividad objetivo.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "PROGRESS_ONLY",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-partial-crop-score.png",
+      "purpose": "Captura parcial: no conserva una señal de finalización; score aislado no acredita cierre.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "PROGRESS_ONLY",
+        "finalization": false,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-illegible.png",
+      "purpose": "Imagen sintética con ruido no interpretable; el sistema debe conservar UNKNOWN_LAYOUT.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "expected": {
+        "templateType": "UNKNOWN_LAYOUT",
+        "finalization": null,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "pieceCount": null
+      }
+    },
+    {
+      "filename": "synthetic-high-resolution-stress.png",
+      "purpose": "Prueba sintética de escalado y recursos; no computa en accuracy.",
+      "truthSource": "predefined synthetic scenario",
+      "isRealCapture": false,
+      "resourceStressOnly": true
+    }
+  ]
+}

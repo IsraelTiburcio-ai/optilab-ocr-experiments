@@ -1,0 +1,3537 @@
+{
+  "engine": "Tesseract.js 7.0.0",
+  "experiments": {
+    "languageComparison": [
+      "capturas/originales/wordwall-embed-inicio.png",
+      "capturas/originales/wordwall-feedback-correcto.png",
+      "capturas/originales/wordwall-error-feedback.png",
+      "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png"
+    ],
+    "fullVsRegion": [
+      [
+        "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+        "full"
+      ],
+      [
+        "capturas/variantes/v10-final3-recorte-centro.png",
+        "central-crop"
+      ],
+      [
+        "capturas/originales/wordwall-resultado-ronda-1.png",
+        "full"
+      ],
+      [
+        "capturas/variantes/v13-final0-recorte-centro.png",
+        "central-crop"
+      ]
+    ],
+    "psmValues": {
+      "auto": "3",
+      "sparse": "11",
+      "block": "6",
+      "line": "7"
+    },
+    "numericWhitelist": "0123456789%:/"
+  },
+  "workerLoads": [
+    {
+      "language": "spa+eng",
+      "startupMs": 148,
+      "measuredAt": "2026-10-26T08:18:34.211Z"
+    },
+    {
+      "language": "spa",
+      "startupMs": 95,
+      "measuredAt": "2026-10-26T08:18:49.133Z"
+    },
+    {
+      "language": "eng",
+      "startupMs": 96,
+      "measuredAt": "2026-10-26T08:18:51.366Z"
+    },
+    {
+      "language": "spa+eng",
+      "startupMs": 154,
+      "measuredAt": "2026-10-26T08:18:53.636Z"
+    }
+  ],
+  "runs": [
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 95,
+      "recognitionMs": 332,
+      "confidence": 89,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nLE\nKEN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 95,
+      "recognitionMs": 216,
+      "confidence": 89,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nLE\nKEN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 95,
+      "recognitionMs": 216,
+      "confidence": 89,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nLE\nKEN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 95,
+      "recognitionMs": 172,
+      "confidence": 85,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 85,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 95,
+      "recognitionMs": 169,
+      "confidence": 85,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 85,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 95,
+      "recognitionMs": 167,
+      "confidence": 85,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 85,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 95,
+      "recognitionMs": 75,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 95,
+      "recognitionMs": 74,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 95,
+      "recognitionMs": 74,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 95,
+      "recognitionMs": 212,
+      "confidence": 87,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 95,
+      "recognitionMs": 213,
+      "confidence": 87,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 95,
+      "recognitionMs": 215,
+      "confidence": 87,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 96,
+      "recognitionMs": 289,
+      "confidence": 88,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncudntos puedes acertar antes de que acabe el tiempo.\n\n0)\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 96,
+      "recognitionMs": 219,
+      "confidence": 88,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncudntos puedes acertar antes de que acabe el tiempo.\n\n0)\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 96,
+      "recognitionMs": 222,
+      "confidence": 88,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncudntos puedes acertar antes de que acabe el tiempo.\n\n0)\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 96,
+      "recognitionMs": 173,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 jCorrecto! vow /1\n\nha extension\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 96,
+      "recognitionMs": 168,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 jCorrecto! vow /1\n\nha extension\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 96,
+      "recognitionMs": 169,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 jCorrecto! vow /1\n\nha extension\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 96,
+      "recognitionMs": 79,
+      "confidence": 70,
+      "rawText": "1:46 ilncorrecto! Ye /0\n\nAT\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 70,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 96,
+      "recognitionMs": 79,
+      "confidence": 70,
+      "rawText": "1:46 ilncorrecto! Ye /0\n\nAT\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 70,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 96,
+      "recognitionMs": 80,
+      "confidence": 70,
+      "rawText": "1:46 ilncorrecto! Ye /0\n\nAT\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución."
+        ],
+        "ocrConfidence": 70,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 96,
+      "recognitionMs": 211,
+      "confidence": 88,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABO EL TIEMPO\n\nPuntuacién\n\n3\n\n£570 EN LA TABLA CLASICACION\nTabla de clasificacién\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 96,
+      "recognitionMs": 212,
+      "confidence": 88,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABO EL TIEMPO\n\nPuntuacién\n\n3\n\n£570 EN LA TABLA CLASICACION\nTabla de clasificacién\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 96,
+      "recognitionMs": 213,
+      "confidence": 88,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABO EL TIEMPO\n\nPuntuacién\n\n3\n\n£570 EN LA TABLA CLASICACION\nTabla de clasificacién\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 88,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 302,
+      "confidence": 90,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 90,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 268,
+      "confidence": 90,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 90,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-embed-inicio.png",
+      "category": "original",
+      "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 244,
+      "confidence": 90,
+      "rawText": "Verdadero o falso\n\nMétodo de M Grande\n\nLos elementos pasan volando a gran velocidad. Veamos\ncuántos puedes acertar antes de que acabe el tiempo.\n\nEh\n\nKA\nkN\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": "Método de M Grande",
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": false,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización."
+        ],
+        "ocrConfidence": 90,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 216,
+      "confidence": 89,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 242,
+      "confidence": 89,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-feedback-correcto.png",
+      "category": "original",
+      "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 216,
+      "confidence": 89,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\n1:19 ¡Correcto! EP /1\n\nna extensión\n\nétodo simplex\n\nVerdadero\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 79,
+        "finished": false,
+        "feedback": "correcto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«correcto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 89,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 102,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 103,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-error-feedback.png",
+      "category": "original",
+      "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 102,
+      "confidence": 69,
+      "rawText": "1:46 ¡Incorrecto! ve /0\n\nTina\nVerdadero\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": 106,
+        "finished": false,
+        "feedback": "incorrecto",
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Se ve una lectura de temporizador; no se interpreta como duración de resolución.",
+          "«incorrecto» es feedback de una respuesta y no acredita la finalización."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 281,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 279,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 272,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 276,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 273,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 281,
+      "confidence": 91,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\nLoad real Wordwall game\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 91,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 357,
+      "confidence": 72,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\n[e — Tr —lÑ] e DEE\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nocur/\n\n37 PUE\n\nTO ENTA\n\nel\n\nSif\n\nN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 72,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 391,
+      "confidence": 72,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\n[e — Tr —lÑ] e DEE\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nocur/\n\n37 PUE\n\nTO ENTA\n\nel\n\nSif\n\nN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 72,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 350,
+      "confidence": 72,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\n\n[e — Tr —lÑ] e DEE\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nocur/\n\n37 PUE\n\nTO ENTA\n\nel\n\nSif\n\nN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 72,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 266,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\nSE ACABO EL TIEMPO\nPuntuacién\nOCUPAS EL 8 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 266,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\nSE ACABO EL TIEMPO\nPuntuacién\nOCUPAS EL 8 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 264,
+      "confidence": 84,
+      "rawText": "OptiLab experimental wrapper Real Wordwall iframe loading\nSE ACABO EL TIEMPO\nPuntuacién\nOCUPAS EL 8 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 96,
+      "confidence": 76,
+      "rawText": "OptiLab paki Real Wordwall iframe loading 2\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 96,
+      "confidence": 76,
+      "rawText": "OptiLab paki Real Wordwall iframe loading 2\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+      "category": "original",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 97,
+      "confidence": 76,
+      "rawText": "OptiLab paki Real Wordwall iframe loading 2\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 189,
+      "confidence": 83,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 83,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 199,
+      "confidence": 83,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 83,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 191,
+      "confidence": 83,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 83,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 207,
+      "confidence": 86,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\n[= 4\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 86,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 206,
+      "confidence": 86,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\n[= 4\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 86,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 217,
+      "confidence": 86,
+      "rawText": "a\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n3\n\nOCUPAS EL 3 PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\n[= 4\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 86,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 244,
+      "confidence": 76,
+      "rawText": "a F 3 aD\nSE ACABO EL TIEMPO\nPuntuacién\nN\n> | 3\n\nOCUPAS EL? PUESTO EN LA TABLA CLASICACION A\n\nTabla de clasificación |\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 237,
+      "confidence": 76,
+      "rawText": "a F 3 aD\nSE ACABO EL TIEMPO\nPuntuacién\nN\n> | 3\n\nOCUPAS EL? PUESTO EN LA TABLA CLASICACION A\n\nTabla de clasificación |\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 242,
+      "confidence": 76,
+      "rawText": "a F 3 aD\nSE ACABO EL TIEMPO\nPuntuacién\nN\n> | 3\n\nOCUPAS EL? PUESTO EN LA TABLA CLASICACION A\n\nTabla de clasificación |\nMostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 3,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La puntuación final visible no incluye el máximo; no se infiere un porcentaje desde un número aislado.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 76,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 14,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 13,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 13,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 35,
+      "confidence": 95,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 34,
+      "confidence": 95,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 33,
+      "confidence": 95,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 104,
+      "confidence": 42,
+      "rawText": "ig si\n\n=\n\n4\n\nnik\n\nZÉ\n\na\n\na\n\nki\n\ny\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 42,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 105,
+      "confidence": 42,
+      "rawText": "ig si\n\n=\n\n4\n\nnik\n\nZÉ\n\na\n\na\n\nki\n\ny\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 42,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 108,
+      "confidence": 42,
+      "rawText": "ig si\n\n=\n\n4\n\nnik\n\nZÉ\n\na\n\na\n\nki\n\ny\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 42,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 735,
+      "confidence": 40,
+      "rawText": "E Ñ\nE : | )\nvd pl A 4 -\n— Y . : EN PU i\nTN } A” :\n- 4 -\na y | | r, = Sb ind\n' » a —\nE ¡MN\nMA | AA a\nME BZ. NA\n4 d he sdb ad ad 4 wad 2 dad yw A TER\nRTC EP — YY “Y Ad UA vs\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 40,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 710,
+      "confidence": 40,
+      "rawText": "E Ñ\nE : | )\nvd pl A 4 -\n— Y . : EN PU i\nTN } A” :\n- 4 -\na y | | r, = Sb ind\n' » a —\nE ¡MN\nMA | AA a\nME BZ. NA\n4 d he sdb ad ad 4 wad 2 dad yw A TER\nRTC EP — YY “Y Ad UA vs\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 40,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 749,
+      "confidence": 40,
+      "rawText": "E Ñ\nE : | )\nvd pl A 4 -\n— Y . : EN PU i\nTN } A” :\n- 4 -\na y | | r, = Sb ind\n' » a —\nE ¡MN\nMA | AA a\nME BZ. NA\n4 d he sdb ad ad 4 wad 2 dad yw A TER\nRTC EP — YY “Y Ad UA vs\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 40,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 181,
+      "confidence": 69,
+      "rawText": "| | - 3 : | : | e Y |\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 178,
+      "confidence": 69,
+      "rawText": "| | - 3 : | : | e Y |\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+      "category": "original",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "full",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 177,
+      "confidence": 69,
+      "rawText": "| | - 3 : | : | e Y |\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 69,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 118,
+      "confidence": 95,
+      "rawText": "SE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 126,
+      "confidence": 95,
+      "rawText": "SE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "auto",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 123,
+      "confidence": 95,
+      "rawText": "SE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 95,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 148,
+      "confidence": 87,
+      "rawText": "—\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\n\n1”\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 145,
+      "confidence": 87,
+      "rawText": "—\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\n\n1”\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "sparse",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 149,
+      "confidence": 87,
+      "rawText": "—\n\nSE ACABÓ EL TIEMPO\n\nPuntuación\n\n0\n\nTabla de clasificación\n\n1”\n\nMostrar respuestas\n\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 87,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 139,
+      "confidence": 84,
+      "rawText": "SE ACABÓ EL TIEMPO\n$ Puntuación\n0]\n, .\nTabla de clasificación PEA\n| Mostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 137,
+      "confidence": 84,
+      "rawText": "SE ACABÓ EL TIEMPO\n$ Puntuación\n0]\n, .\nTabla de clasificación PEA\n| Mostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 139,
+      "confidence": 84,
+      "rawText": "SE ACABÓ EL TIEMPO\n$ Puntuación\n0]\n, .\nTabla de clasificación PEA\n| Mostrar respuestas\nVolver a empezar\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": 0,
+        "scoreKind": "final_explicita",
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": true,
+        "feedback": null,
+        "decision": "no_acreditable",
+        "reasons": [
+          "El resultado final muestra un porcentaje o una puntuación inferior al máximo; 0 puntos también descarta el criterio perfecto para esta actividad.",
+          "El título de la actividad no se reconoce en la captura.",
+          "Wordwall no muestra un denominador o porcentaje verificable en esta pantalla."
+        ],
+        "ocrConfidence": 84,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 11,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 11,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "line",
+        "region": "central-crop",
+        "whitelist": false
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 10,
+      "confidence": 0,
+      "rawText": "",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 0,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 317,
+      "confidence": 49,
+      "rawText": ": 3\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 49,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 306,
+      "confidence": 49,
+      "rawText": ": 3\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 49,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v10-final3-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 318,
+      "confidence": 49,
+      "rawText": ": 3\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 49,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 1,
+      "workerStartupMs": 154,
+      "recognitionMs": 243,
+      "confidence": 14,
+      "rawText": "%\n4\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 14,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 2,
+      "workerStartupMs": 154,
+      "recognitionMs": 249,
+      "confidence": 14,
+      "rawText": "%\n4\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 14,
+        "authenticityVerified": false
+      }
+    },
+    {
+      "image": "capturas/variantes/v13-final0-recorte-centro.png",
+      "category": "variant",
+      "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7",
+      "config": {
+        "language": "spa+eng",
+        "psm": "block",
+        "region": "central-crop-numeric-whitelist",
+        "whitelist": true
+      },
+      "replicate": 3,
+      "workerStartupMs": 154,
+      "recognitionMs": 243,
+      "confidence": 14,
+      "rawText": "%\n4\n",
+      "parsed": {
+        "provider": "wordwall",
+        "activityId": "22610275",
+        "activityRecognized": null,
+        "score": null,
+        "scoreKind": null,
+        "maxScore": null,
+        "percentage": null,
+        "correct": null,
+        "incorrect": null,
+        "durationSeconds": null,
+        "timerReadingSeconds": null,
+        "finished": null,
+        "feedback": null,
+        "decision": "indeterminado",
+        "reasons": [
+          "La imagen no muestra una señal clara de finalización.",
+          "El título de la actividad no se reconoce en la captura."
+        ],
+        "ocrConfidence": 14,
+        "authenticityVerified": false
+      }
+    }
+  ]
+}

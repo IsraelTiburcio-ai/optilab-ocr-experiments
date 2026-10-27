@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f5f6fb"><title>OptiLab · Experimento OCR V3</title><link rel="stylesheet" href="./styles-v3.css"></head>
+<body>
+  <main class="shell">
+    <header class="topbar"><div class="brand">O</div><div><p class="eyebrow">EXPERIMENTO INDEPENDIENTE · WORDWALL</p><h1>Tu actividad, tu entrega</h1><p class="lede">Prueba local del flujo que podría seguir un alumno después de abrir la actividad desde el QR.</p></div><nav><button id="view-student" class="view-tab active" type="button">Vista alumno</button><button id="view-admin" class="view-tab" type="button">Administración demo</button></nav></header>
+    <aside class="notice"><strong>Solo demostración.</strong> No registra calificaciones reales ni se conecta a OptiLab. Las imágenes se analizan en este navegador y se descartan al quitarlas o al cerrar la página. La autenticidad nunca se verifica.</aside>
+
+    <div id="student-view">
+    <section class="activity panel" id="student">
+      <div class="activity-copy"><p class="eyebrow">ACTIVIDAD DEL GIMNASIO · OPTIMIZACIÓN I</p><h2 id="activity-title">Método de M Grande</h2><p>Resuelve la actividad. Cuando termines, adjunta una captura de la pantalla final para registrar la entrega.</p><div class="actions"><a class="button primary" id="open-game" href="https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande" target="_blank" rel="noopener noreferrer">Abrir juego Wordwall ↗</a><button class="button quiet" id="show-embed" type="button">Ver juego aquí</button></div><small>Si el juego no se muestra dentro de OptiLab, usa «Abrir juego Wordwall» y regresa aquí para adjuntar el resultado.</small></div>
+      <div class="game-wrap" id="game-wrap" hidden><iframe id="game-frame" title="Actividad Wordwall: Método de M Grande" loading="lazy" allowfullscreen></iframe></div>
+    </section>
+
+    <section class="panel upload-panel" aria-labelledby="upload-heading">
+      <div class="section-title"><div><p class="eyebrow">AL TERMINAR</p><h2 id="upload-heading">Adjunta el resultado</h2></div><span class="pill">Procesamiento local</span></div>
+      <label class="dropzone" id="dropzone" for="image-file"><input id="image-file" type="file" accept="image/png,image/jpeg,image/webp"><span class="upload-icon">↑</span><strong>Selecciona o arrastra la captura final</strong><small>PNG, JPG o WebP. No se envía a un servidor.</small></label>
+      <div class="upload-workspace" id="upload-workspace" hidden><div><div class="mini-heading"><strong>Vista previa temporal</strong><button type="button" class="text-link" id="discard-image">Descartar captura</button></div><img id="preview" alt="Vista previa temporal de la captura"><p class="file-meta" id="file-meta"></p></div><div class="submit-column"><label for="student-id">Alumno de demostración</label><select id="student-id"><option>Alumno demo 001</option><option>Alumno demo 002</option><option>Alumno demo 003</option></select><p class="helper">Solo usamos identidades ficticias en este prototipo.</p><button class="button primary full" id="analyze" type="button" disabled>Revisar evidencia</button><div id="progress" class="progress" hidden>Preparando lectura…</div></div></div>
+    </section>
+
+    <section id="result-panel" class="panel result-panel" hidden aria-labelledby="result-heading">
+      <div class="section-title"><div><p class="eyebrow">RESULTADO DE ESTA ENTREGA</p><h2 id="result-heading">Evidencia interpretada</h2></div><span class="pill" id="latency">—</span></div>
+      <div class="result-grid"><article class="result-fact"><span>Puntuación</span><strong id="score">—</strong></article><article class="result-fact"><span>Tiempo observado</span><strong id="duration">—</strong></article><article class="result-fact"><span>Resultado reconocido</span><strong id="result-status">—</strong></article><article class="result-fact"><span>Identidad visual</span><strong id="activity-match">—</strong></article><article class="result-fact"><span>Calidad de lectura</span><strong id="evidence-quality">—</strong></article><article class="result-fact"><span>Finalización</span><strong id="finalization">—</strong></article></div>
+      <div class="policy-compare"><article class="decision-card strict-card"><div class="decision-head"><div><p class="eyebrow">MODO ESTRICTO</p><h3 id="strict-decision">—</h3></div><span class="grade" id="strict-grade">—</span></div><ul id="strict-reasons"></ul></article><article class="decision-card context-card"><div class="decision-head"><div><p class="eyebrow">MODO CONTEXTUAL SUPERVISADO</p><h3 id="context-decision">—</h3></div><span class="grade" id="context-grade">—</span></div><ul id="context-reasons"></ul></article></div>
+      <div class="not-verified" id="identity-warning" hidden>La pantalla final no muestra el nombre de la actividad. El modo contextual usa el QR/página actual como señal operativa aprobada para el experimento; eso <strong>no comprueba</strong> que la imagen provenga de este juego.</div>
+      <div class="warning-box"><strong>Autenticidad: no verificada.</strong> OCR no prueba quién jugó ni si la captura fue editada. Una discrepancia o captura ilegible nunca se convierte automáticamente en cero.</div>
+      <details class="ocr-details"><summary>Ver texto reconocido y pasadas OCR</summary><div id="ocr-passes"></div></details>
+      <div class="result-actions"><button class="button primary" id="record-submission" type="button">Simular registro de entrega</button><button class="button quiet" id="export-current-json" type="button">Exportar este resultado JSON</button><button class="button quiet" id="new-evidence" type="button">Adjuntar otra captura</button></div>
+      <p id="record-feedback" class="helper"></p>
+    </section>
+
+    </div>
+
+    <div id="admin-view" hidden>
+    <section class="panel config-panel" id="catalog-config">
+      <div class="section-title"><div><p class="eyebrow">FICHA DE CATÁLOGO · SIMULADA</p><h2>Regla definida al incorporar la actividad</h2></div><span class="pill">No se usa durante la clase</span></div>
+      <div class="config-grid"><div><label for="grading-policy">Criterio de acreditación</label><select id="grading-policy"><option value="PUNTUACION_PERFECTA">PUNTUACION_PERFECTA · todos los puntos</option><option value="ACTIVIDAD_COMPLETADA">ACTIVIDAD_COMPLETADA · señal satisfactoria</option><option value="UMBRAL_CONFIGURADO" disabled>UMBRAL_CONFIGURADO · falta acuerdo docente</option></select><p class="helper">La política no inventa un umbral. ACTIVIDAD_COMPLETADA solo tiene sentido cuando terminar implica alcanzar el objetivo académico.</p></div><div class="approval-box"><label class="checkline"><input id="context-approved" type="checkbox" checked><span>Simular aprobación docente para evidencia contextual</span></label><p class="helper">Aprobación del catálogo de prueba, no autorización institucional. Si se desmarca, el contexto no concede puntos.</p></div></div>
+      <label class="mode-line" for="verification-mode">Modo que se usará al registrar</label><select id="verification-mode"><option value="STRICT">STRICT · identidad visible requerida</option><option value="CONTEXTUAL">CONTEXTUAL · solo si la aprobación está activa</option></select>
+    </section>
+
+    <section class="panel" id="records">
+      <div class="section-title"><div><p class="eyebrow">VISTA ADMINISTRATIVA EXPERIMENTAL</p><h2>Entregas simuladas en memoria</h2></div><span class="pill">Sin sesiones de profesora</span></div>
+      <p class="helper">Registros inventados para demostrar 1, 0 y Pendiente. No hay nombres ni envíos reales. La tabla desaparece al recargar; no se escribe en almacenamiento local.</p>
+      <div class="table-wrap"><table><thead><tr><th>Alumno simulado</th><th>Actividad / resultado</th><th>Puntos / tiempo</th><th>Estado de entrega</th><th>Regla · modo</th><th>Recepción</th><th>Advertencia</th></tr></thead><tbody id="records-body"></tbody></table></div>
+      <div class="actions export-actions"><button class="button quiet" id="export-csv" type="button">Exportar CSV para Excel</button><button class="button quiet" id="export-records-json" type="button">Exportar JSON</button><span id="records-count" class="helper"></span></div>
+    </section>
+
+    <section class="panel" id="savings">
+      <div class="section-title"><div><p class="eyebrow">SIMULADOR ILUSTRATIVO</p><h2>¿Cuánto tiempo podría ahorrar la revisión?</h2></div><span class="pill warning-pill">Supuestos editables, no medición</span></div>
+      <div class="savings-inputs"><label>Alumnos<input id="students" type="number" min="1" value="30"></label><label>Actividades por alumno<input id="activities" type="number" min="1" value="3"></label><label>Minutos manuales por evidencia<input id="manual-minutes" type="number" min="0" step="0.1" value="2"></label><label>% que se resolvería automáticamente<input id="automation-rate" type="number" min="0" max="100" value="50"></label><label>Minutos de revisión por excepción<input id="exception-minutes" type="number" min="0" step="0.1" value="1"></label></div>
+      <div class="savings-output"><article><span>Evidencias totales</span><strong id="total-evidence">—</strong></article><article><span>Tiempo manual estimado</span><strong id="manual-time">—</strong></article><article><span>Tiempo restante estimado</span><strong id="remaining-time">—</strong></article><article><span>Ahorro potencial</span><strong id="saved-time">—</strong></article><article><span>Reducción estimada</span><strong id="reduction">—</strong></article></div>
+      <p class="helper">El porcentaje es un escenario para evaluar, no una tasa medida. Fórmula: evidencias × minutos manuales frente a excepciones × minutos de revisión; no incluye costos de implementación ni apelaciones.</p>
+    </section>
+
+    <section class="panel" id="audit"><div class="section-title"><div><p class="eyebrow">AUDITORÍA DEL EXPERIMENTO</p><h2>Pruebas reales, adversariales y límites</h2></div><a class="text-link" href="./INFORME-V3.md">Leer informe técnico</a></div><div class="audit-grid"><article><h3>7 capturas reales Wordwall</h3><p id="real-summary">OCR de Tesseract real con salida temprana y comparación contra etiquetas visuales.</p><small>Las métricas sintéticas se mantienen aparte.</small></article><article><h3>8 fixtures adversariales sintéticos</h3><p id="synthetic-summary">Incluyen título de otra actividad, título ausente, recorte, puntuaciones diferentes, batería, resultado incompleto y duplicado exacto.</p><small>No representan partidas reales.</small></article><article><h3>Atribución contextual</h3><p>Una tarjeta genérica 6/6 puede provenir de A o de B y generar la misma lectura. Ningún OCR puede reconstruir información que no está en la imagen.</p><small>El contexto contextualiza la decisión, no verifica el origen.</small></article></div><div class="actions"><button class="button quiet" id="export-audit-json" type="button">Exportar métricas JSON</button><a class="button quiet" href="./resultados/metrics-v3.json">Abrir métricas</a></div></section>
+    </div>
+
+    <footer><p>LearningApps usa una integración de eventos separada (`AppSolved` / `AppCompleted`): señala finalización, no puntuación perfecta ni autenticidad antifraude. No hay OCR de LearningApps en V3. OptiLab, Firebase y servicios externos de OCR permanecen fuera del experimento.</p><p><a href="./README-V3.md">Instrucciones</a> · <a href="./">V1</a> · <a href="./index-v2.html">V2</a></p></footer>
+  </main>
+  <script type="module" src="./src/app-v3.mjs"></script>
+</body>
+</html>

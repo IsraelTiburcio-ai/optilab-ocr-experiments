@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8fc">
+  <title>Wordwall + OCR · Experimento OptiLab</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true">O</div>
+      <div>
+        <p class="eyebrow">OptiLab · experimento independiente</p>
+        <h1>Lectura local de capturas Wordwall</h1>
+        <p class="lede">Carga una captura y revisa qué puede extraer el OCR. La decisión se abstiene cuando falta evidencia.</p>
+      </div>
+    </header>
+
+    <section class="privacy-note" aria-label="Privacidad">
+      <span class="privacy-dot" aria-hidden="true"></span>
+      <div><strong>El archivo se procesa en este navegador.</strong> No se envía ni se conserva. El motor y los datos de idioma pueden descargarse la primera vez.</div>
+    </section>
+
+    <section class="panel upload-panel" aria-labelledby="upload-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / Evidencia</p><h2 id="upload-title">Adjunta una captura</h2></div>
+        <span class="tag">Wordwall · Método de M Grande</span>
+      </div>
+      <label class="dropzone" id="dropzone" for="image-file">
+        <input id="image-file" type="file" accept="image/png,image/jpeg,image/webp,image/bmp" aria-label="Seleccionar captura de Wordwall">
+        <span class="upload-icon" aria-hidden="true">↑</span>
+        <span class="drop-title">Elige una imagen o arrástrala aquí</span>
+        <span class="drop-subtitle">PNG, JPG, WebP o BMP. La imagen solo vive en esta pestaña.</span>
+      </label>
+      <div class="sample-row">
+        <label for="sample-select">O abre una muestra del dataset</label>
+        <select id="sample-select">
+          <option value="">Selecciona una captura incluida…</option>
+        </select>
+        <button class="button button-quiet" id="load-sample" type="button">Cargar muestra</button>
+      </div>
+
+      <div class="image-workspace" id="image-workspace" hidden>
+        <div class="preview-wrap">
+          <div class="preview-topline"><span>Vista previa</span><button class="text-button" id="clear-image" type="button">Quitar imagen</button></div>
+          <img id="preview" alt="Vista previa de la captura seleccionada">
+          <p class="file-meta" id="file-meta"></p>
+          <div class="prepared-wrap" id="prepared-wrap" hidden><div class="preview-topline"><span>Región que recibe el OCR</span></div><img id="prepared-preview" alt="Vista previa del recorte preparado para OCR"></div>
+        </div>
+        <div class="controls">
+          <label for="language">Idioma del OCR</label>
+          <select id="language">
+            <option value="spa+eng" selected>Español + inglés</option>
+            <option value="spa">Español</option>
+            <option value="eng">Inglés</option>
+          </select>
+          <label for="preprocess">Preparación de imagen</label>
+          <select id="preprocess">
+            <option value="original" selected>Captura completa · sin filtro</option>
+            <option value="upscale">Captura completa · escala 2×</option>
+            <option value="gray">Captura completa · grises y contraste</option>
+            <option value="center">Recorte de tarjeta · tamaño original</option>
+          </select>
+          <label for="psm">Segmentación de texto</label>
+          <select id="psm">
+            <option value="auto" selected>Automática · página completa</option>
+            <option value="sparse">Texto disperso · interfaz de juego</option>
+            <option value="block">Bloque único · tarjeta de resultado</option>
+            <option value="line">Línea única · números / marcador</option>
+          </select>
+          <button class="button button-primary" id="analyze" type="button" disabled>Analizar captura</button>
+          <p class="helper">Cambiar idioma reinicia el trabajador OCR. Se mide por separado la carga del motor y el análisis.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel results-panel" id="results-panel" aria-labelledby="results-title" hidden>
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / Lectura</p><h2 id="results-title">Resultado estructurado</h2></div>
+        <span id="decision-badge" class="decision-badge decision-unknown">Indeterminado</span>
+      </div>
+      <div class="progress-row" id="progress-row" hidden><span class="spinner" aria-hidden="true"></span><span id="progress-text">Preparando OCR…</span></div>
+      <div class="metrics-grid">
+        <article class="metric"><span>Actividad reconocida</span><strong id="metric-activity">—</strong></article>
+        <article class="metric"><span>Puntuación</span><strong id="metric-score">—</strong></article>
+        <article class="metric"><span>Máximo visible</span><strong id="metric-max">—</strong></article>
+        <article class="metric"><span>Porcentaje</span><strong id="metric-percent">—</strong></article>
+        <article class="metric"><span>Aciertos / errores</span><strong id="metric-counts">—</strong></article>
+        <article class="metric"><span>Duración de resolución</span><strong id="metric-duration">—</strong></article>
+        <article class="metric"><span>Finalización</span><strong id="metric-finished">—</strong></article>
+        <article class="metric"><span>Tiempo de OCR</span><strong id="metric-runtime">—</strong></article>
+      </div>
+      <div class="decision-copy" id="decision-copy"></div>
+      <div class="output-grid">
+        <div class="output-card"><div class="output-heading"><h3>Texto extraído</h3><span id="ocr-confidence">Confianza: —</span></div><pre id="ocr-text">El texto aparecerá aquí.</pre></div>
+        <div class="output-card"><div class="output-heading"><h3>Reglas aplicadas</h3><button class="button button-quiet" id="download-json" type="button" disabled>Descargar JSON</button></div><ul id="reasons-list"><li>Adjunta una captura para comenzar.</li></ul></div>
+      </div>
+      <p class="integrity-note"><strong>Alcance:</strong> OCR puede leer contenido visible; no verifica que la captura sea auténtica, que pertenezca al alumno ni que no haya sido editada.</p>
+    </section>
+
+    <section class="footnote">
+      <p>Actividad estudiada: <a href="https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande" target="_blank" rel="noreferrer">Método de M Grande</a> · <a href="https://wordwall.net/es/embed/cc167dda64954e3dbb379706dd8348c8?themeId=66&amp;templateId=35&amp;fontStackId=0" target="_blank" rel="noreferrer">abrir embed</a></p>
+      <p>La demo es independiente y no modifica OptiLab. No tiene backend, cuentas, permisos ni almacenamiento de imágenes.</p>
+    </section>
+  </main>
+  <script type="module" src="./src/app.mjs"></script>
+</body>
+</html>

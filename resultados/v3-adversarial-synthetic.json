@@ -1,0 +1,1299 @@
+{
+  "datasetType": "SINTÉTICO — fixtures generados para evaluar límites de atribución; no son capturas de partidas reales",
+  "generatedAt": "2026-10-26T23:12:33.041Z",
+  "engine": "Tesseract.js 7.0.0",
+  "workerStartupMs": 141,
+  "fixturesAreRealStudentSubmissions": false,
+  "duplicateExperiment": {
+    "files": [
+      "synthetic-generic-target.png",
+      "synthetic-generic-cross-game-duplicate.png"
+    ],
+    "byteIdentical": true,
+    "identicalOcrReadings": true,
+    "targetDecision": "ACREDITABLE_SEGUN_POLITICA",
+    "crossGameDecision": "ACREDITABLE_SEGUN_POLITICA",
+    "productStoresOrHashesLearnerImages": false,
+    "interpretation": "La diferencia de actividad no es observable si los bytes y el contenido visual son iguales; el hash se calcula solo para validar este fixture sintético."
+  },
+  "crossActivity": {
+    "otherActivityFixtures": 5,
+    "contextualMisattributions": 4,
+    "contextualFalsePositiveCredits": 3,
+    "contextualWrongZeros": 1,
+    "misattributedFiles": [
+      "synthetic-generic-cross-game-duplicate.png",
+      "synthetic-other-perfect-4of4.png",
+      "synthetic-other-nonperfect-8of10.png",
+      "synthetic-battery-cross-activity.png"
+    ],
+    "strictCreditsAmongOtherActivities": 0
+  },
+  "fixtures": [
+    {
+      "filename": "synthetic-visible-other-title.png",
+      "truth": "other",
+      "case": "título visible de otra actividad",
+      "duplicateOf": null,
+      "sourceSha256": "a5d7cbeedd43dbea0703ab3613bc6f675b8ec848f31416991a8cf4712207a287",
+      "inputLabel": "título visible de otra actividad",
+      "ocrMs": 90,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nActividad B\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+          "elapsedMs": 90
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 6,
+        "max_score": 6,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 6,
+              "maxScore": 6,
+              "valid": true,
+              "text": "6/6",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 86,
+        "duration_source_label": "1:26",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nActividad B\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "PERFECTO",
+        "activityMatch": "CONTRADICHA",
+        "activityMatchEvidence": {
+          "recognizedTitle": "Actividad B",
+          "source": "título alternativo configurado en catálogo"
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 6,
+        "maxScore": 6,
+        "percentage": 100,
+        "durationSeconds": 86,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nActividad B\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+            "academicGrade": null,
+            "reasons": [
+              "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+            "academicGrade": null,
+            "reasons": [
+              "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-generic-target.png",
+      "truth": "target",
+      "case": "resultado final genérico sin título, actividad objetivo simulada",
+      "duplicateOf": null,
+      "sourceSha256": "0043a085dae623010966cf03fed33ca87a70e0a60c357b8a7ff0de1e4c0e7bd1",
+      "inputLabel": "resultado final genérico sin título, actividad objetivo simulada",
+      "ocrMs": 82,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+          "elapsedMs": 82
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 6,
+        "max_score": 6,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 6,
+              "maxScore": 6,
+              "valid": true,
+              "text": "6/6",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 86,
+        "duration_source_label": "1:26",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "PERFECTO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 6,
+        "maxScore": 6,
+        "percentage": 100,
+        "durationSeconds": 86,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "ACREDITABLE_SEGUN_POLITICA",
+            "academicGrade": 1,
+            "reasons": [
+              "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+              "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+            ],
+            "identityAssumedFromContext": true
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-generic-cross-game-duplicate.png",
+      "truth": "other",
+      "case": "misma imagen exacta, pero se declara actividad fuente distinta",
+      "duplicateOf": "synthetic-generic-target.png",
+      "sourceSha256": "0043a085dae623010966cf03fed33ca87a70e0a60c357b8a7ff0de1e4c0e7bd1",
+      "inputLabel": "misma imagen exacta, pero se declara actividad fuente distinta",
+      "ocrMs": 81,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+          "elapsedMs": 81
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 6,
+        "max_score": 6,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 6,
+              "maxScore": 6,
+              "valid": true,
+              "text": "6/6",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 86,
+        "duration_source_label": "1:26",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "PERFECTO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 6,
+        "maxScore": 6,
+        "percentage": 100,
+        "durationSeconds": 86,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 6/6\n\nHora 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "ACREDITABLE_SEGUN_POLITICA",
+            "academicGrade": 1,
+            "reasons": [
+              "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+              "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+            ],
+            "identityAssumedFromContext": true
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-cropped-only-fraction.png",
+      "truth": "unknown",
+      "case": "recorte 6/6 sin cierre ni nombre",
+      "duplicateOf": null,
+      "sourceSha256": "2197a0dd448085dfebe402d1cf3008cecf6a34ecb4a15434f27ce4561da9e189",
+      "inputLabel": "recorte 6/6 sin cierre ni nombre",
+      "ocrMs": 18,
+      "passCount": 5,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 96,
+          "text": "6/6\n",
+          "elapsedMs": 6
+        },
+        {
+          "pass": "full-sparse",
+          "region": "full",
+          "psm": "sparse",
+          "confidence": 0,
+          "text": "",
+          "elapsedMs": 6
+        },
+        {
+          "pass": "center-auto",
+          "region": "center",
+          "psm": "auto",
+          "confidence": 0,
+          "text": "",
+          "elapsedMs": 1
+        },
+        {
+          "pass": "center-sparse",
+          "region": "center",
+          "psm": "sparse",
+          "confidence": 0,
+          "text": "",
+          "elapsedMs": 1
+        },
+        {
+          "pass": "wide-sparse",
+          "region": "wide",
+          "psm": "sparse",
+          "confidence": 83,
+          "text": "'6\n",
+          "elapsedMs": 4
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": 6,
+        "max_score": 6,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 6,
+              "maxScore": 6,
+              "valid": true,
+              "text": "6/6",
+              "pass": "full-auto",
+              "confidence": 96,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "6/6\n",
+            "confidence": 96
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "'6\n",
+            "confidence": 83
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 6,
+        "maxScore": 6,
+        "percentage": 100,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 5,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "6/6\n",
+            "confidence": 96
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "text": "",
+            "confidence": 0
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "text": "'6\n",
+            "confidence": 83
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "No hay una señal legible de finalización; vuelve a adjuntar el resultado final."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-other-perfect-4of4.png",
+      "truth": "other",
+      "case": "otra plantilla/puntuación perfecta 4/4 sin título",
+      "duplicateOf": null,
+      "sourceSha256": "8eca16bf265796bd0a4e224534f35f5690c2f8bd44acd30a53089daf023e8456",
+      "inputLabel": "otra plantilla/puntuación perfecta 4/4 sin título",
+      "ocrMs": 75,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nGAME COMPLETE\n\nScore 4/4\n\nTime 0:52\n\n",
+          "elapsedMs": 75
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 4,
+        "max_score": 4,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 4,
+              "maxScore": 4,
+              "valid": true,
+              "text": "4/4",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 52,
+        "duration_source_label": "0:52",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nGAME COMPLETE\n\nScore 4/4\n\nTime 0:52\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (0:52); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "PERFECTO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 4,
+        "maxScore": 4,
+        "percentage": 100,
+        "durationSeconds": 52,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nGAME COMPLETE\n\nScore 4/4\n\nTime 0:52\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (0:52); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "ACREDITABLE_SEGUN_POLITICA",
+            "academicGrade": 1,
+            "reasons": [
+              "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+              "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+            ],
+            "identityAssumedFromContext": true
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-other-nonperfect-8of10.png",
+      "truth": "other",
+      "case": "otra actividad sin título con resultado final no perfecto 8/10",
+      "duplicateOf": null,
+      "sourceSha256": "59e83c694b86ffc6b17540905959928441edbeee3a73fa0428c576002e7ee197",
+      "inputLabel": "otra actividad sin título con resultado final no perfecto 8/10",
+      "ocrMs": 83,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 8/10\n\nHora 0:52\n\n",
+          "elapsedMs": 83
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 8,
+        "max_score": 10,
+        "percentage": 80,
+        "score_perfect_detected": false,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 8,
+              "maxScore": 10,
+              "valid": true,
+              "text": "8/10",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 52,
+        "duration_source_label": "0:52",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 8/10\n\nHora 0:52\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (0:52); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "INSUFICIENTE",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 8,
+        "maxScore": 10,
+        "percentage": 80,
+        "durationSeconds": 52,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": false,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nPuntuación 8/10\n\nHora 0:52\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (0:52); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "NO_CUMPLE_CRITERIO",
+            "academicGrade": 0,
+            "reasons": [
+              "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+              "La captura muestra claramente un resultado final inferior al máximo; la política de puntuación perfecta fue configurada en el catálogo."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-no-final-result.png",
+      "truth": "unknown",
+      "case": "sin resultado final",
+      "duplicateOf": null,
+      "sourceSha256": "c5ad10ebdd29c6bea82b2a91f92056ffcc2a8919b7b252fb42a40457f0e6e719",
+      "inputLabel": "sin resultado final",
+      "ocrMs": 74,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 94,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nActividad B\n\nSelecciona el juego\n\nIniciar\n\n",
+          "elapsedMs": 74
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": false,
+        "successful_completion_detected": null,
+        "finalization_reason": null,
+        "score": null,
+        "max_score": null,
+        "percentage": null,
+        "score_perfect_detected": null,
+        "score_evidence": {
+          "agreement_passes": [],
+          "observations": [],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": null,
+        "duration_source_label": null,
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nActividad B\n\nSelecciona el juego\n\nIniciar\n\n",
+            "confidence": 94
+          }
+        ],
+        "warnings": [],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "DESCONOCIDO",
+        "activityMatch": "CONTRADICHA",
+        "activityMatchEvidence": {
+          "recognizedTitle": "Actividad B",
+          "source": "título alternativo configurado en catálogo"
+        },
+        "evidenceQuality": "AMBIGUA",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": null,
+        "maxScore": null,
+        "percentage": null,
+        "durationSeconds": null,
+        "finalizationDetected": false,
+        "successfulCompletionDetected": null,
+        "scorePerfectDetected": null,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nActividad B\n\nSelecciona el juego\n\nIniciar\n\n",
+            "confidence": 94
+          }
+        ],
+        "warnings": [],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+            "academicGrade": null,
+            "reasons": [
+              "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+            "academicGrade": null,
+            "reasons": [
+              "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+            ],
+            "identityAssumedFromContext": false
+          }
+        },
+        "selectedDecision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    },
+    {
+      "filename": "synthetic-battery-cross-activity.png",
+      "truth": "other",
+      "case": "otra actividad genérica, 6/6 y batería 61%",
+      "duplicateOf": null,
+      "sourceSha256": "ad70b010812d039e8b74c0004d910985e6c1ffabff78652b1c7918a8af7c66a8",
+      "inputLabel": "otra actividad genérica, 6/6 y batería 61%",
+      "ocrMs": 80,
+      "passCount": 1,
+      "readings": [
+        {
+          "pass": "full-auto",
+          "region": "full",
+          "psm": "auto",
+          "confidence": 95,
+          "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nScore 6/6\n\nTime 1:26\n\n",
+          "elapsedMs": 80
+        }
+      ],
+      "parsed": {
+        "provider": "wordwall",
+        "configured_activity": {
+          "provider": "wordwall",
+          "id": "22610275",
+          "title": "Método de M Grande"
+        },
+        "activity_recognized": null,
+        "activity_identified": false,
+        "activity_matched": null,
+        "activity_identity_source": null,
+        "finalization_detected": true,
+        "successful_completion_detected": true,
+        "finalization_reason": "frase explícita de juego/actividad completada",
+        "score": 6,
+        "max_score": 6,
+        "percentage": 100,
+        "score_perfect_detected": true,
+        "score_evidence": {
+          "agreement_passes": [
+            "full-auto"
+          ],
+          "observations": [
+            {
+              "score": 6,
+              "maxScore": 6,
+              "valid": true,
+              "text": "6/6",
+              "pass": "full-auto",
+              "confidence": 95,
+              "region": "full"
+            }
+          ],
+          "invalid_observations": [],
+          "single_score_observations": []
+        },
+        "score_inconsistent": false,
+        "data_inconsistent": false,
+        "duration_seconds": 86,
+        "duration_source_label": "1:26",
+        "timer_remaining_seconds": null,
+        "feedback_only": false,
+        "uncontextualized_percent_ignored": false,
+        "uncontextualized_percent_passes": [],
+        "evidence_authenticated": false,
+        "ocr_passes": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nScore 6/6\n\nTime 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "selected_rule": "PUNTUACION_PERFECTA",
+        "decision": "INDETERMINADO",
+        "reasons": [
+          "No se pudo vincular visualmente la captura con la actividad configurada."
+        ],
+        "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+      },
+      "evidence": {
+        "provider": "wordwall",
+        "activityId": "wordwall-metodo-m-grande",
+        "activityTitle": "Método de M Grande",
+        "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+        "gymId": "gimnasio-optimizacion-i-demo",
+        "gradingPolicy": "PUNTUACION_PERFECTA",
+        "resultStatus": "PERFECTO",
+        "activityMatch": "NO_COMPROBADA",
+        "activityMatchEvidence": {
+          "recognizedTitle": null,
+          "source": null
+        },
+        "evidenceQuality": "SUFICIENTE",
+        "verificationMode": "STRICT",
+        "allowContextualEvidence": true,
+        "score": 6,
+        "maxScore": 6,
+        "percentage": 100,
+        "durationSeconds": 86,
+        "finalizationDetected": true,
+        "successfulCompletionDetected": true,
+        "scorePerfectDetected": true,
+        "scoreInconsistent": false,
+        "dataInconsistent": false,
+        "ocrPassCount": 1,
+        "ocrText": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "text": "FIXTURE SINTÉTICO - NO ES CAPTURA REAL\n\nJUEGO COMPLETADO\n\nScore 6/6\n\nTime 1:26\n\n",
+            "confidence": 95
+          }
+        ],
+        "warnings": [
+          "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+        ],
+        "authenticityVerified": false,
+        "decisions": {
+          "STRICT": {
+            "mode": "STRICT",
+            "decision": "REQUIERE_NUEVA_EVIDENCIA",
+            "academicGrade": null,
+            "reasons": [
+              "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+            ],
+            "identityAssumedFromContext": false
+          },
+          "CONTEXTUAL": {
+            "mode": "CONTEXTUAL",
+            "decision": "ACREDITABLE_SEGUN_POLITICA",
+            "academicGrade": 1,
+            "reasons": [
+              "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+              "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+            ],
+            "identityAssumedFromContext": true
+          }
+        },
+        "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+        "simulatedAcademicGrade": null,
+        "selectedMode": "STRICT",
+        "selectedReasons": [
+          "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+        ],
+        "identityAssumedFromContext": false,
+        "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+      }
+    }
+  ]
+}

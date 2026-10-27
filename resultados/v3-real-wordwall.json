@@ -1,0 +1,2006 @@
+{
+  "datasetType": "CAPTURAS REALES Wordwall, siete originales leídos en modo solo lectura; no se duplican ni modifican.",
+  "generatedAt": "2026-10-26T23:12:32.451Z",
+  "engine": "Tesseract.js 7.0.0",
+  "languages": [
+    "spa",
+    "eng"
+  ],
+  "workerStartupMs": 141,
+  "cropFilesRemovedAfterOcr": true,
+  "activity": {
+    "id": "wordwall-metodo-m-grande",
+    "provider": "wordwall",
+    "resourceId": "22610275",
+    "title": "Método de M Grande",
+    "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+    "embedUrl": "https://wordwall.net/es/embed/cc167dda64954e3dbb379706dd8348c8?themeId=66&templateId=35&fontStackId=0",
+    "gymId": "gimnasio-optimizacion-i-demo",
+    "gradingPolicy": "PUNTUACION_PERFECTA",
+    "verificationMode": "STRICT",
+    "allowContextualEvidence": true,
+    "contextualApprovalLabel": "aprobación docente simulada solo para el experimento",
+    "knownOtherTitles": [
+      "Características del M.P.L.",
+      "Actividad B"
+    ]
+  },
+  "rows": [
+    {
+      "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": 14,
+        "maxScore": 14,
+        "durationSeconds": 67,
+        "activityMatch": null
+      },
+      "visualLabel": "GAME COMPLETE; 14/14; 1:07; título del recurso no visible en la tarjeta",
+      "v2": {
+        "ocrMs": 1039,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 14,
+          "max_score": 14,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-auto",
+              "full-sparse",
+              "wide-sparse"
+            ],
+            "observations": [
+              {
+                "score": 14,
+                "maxScore": 14,
+                "valid": true,
+                "text": "14/14",
+                "pass": "full-auto",
+                "confidence": 93,
+                "region": "full"
+              },
+              {
+                "score": 14,
+                "maxScore": 14,
+                "valid": true,
+                "text": "14/14",
+                "pass": "full-sparse",
+                "confidence": 91,
+                "region": "full"
+              },
+              {
+                "score": 14,
+                "maxScore": 14,
+                "valid": true,
+                "text": "14/14",
+                "pass": "wide-sparse",
+                "confidence": 93,
+                "region": "wide"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 67,
+          "duration_source_label": "1:07",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nScore Time\n\n14/14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n\n",
+              "confidence": 93
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nScore\n\nTime\n\n14 /14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n",
+              "confidence": 91
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "core Tim\n\n1/14 1:C\n\nE 1ST ON THE LEADER\n\neaderboar:\n\nhow answe\n",
+              "confidence": 88
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "core\n\nTim\n\n1/14 1:C\n\nE 1ST ON THE LEADER\n\neaderboar\n\nhow answe\n",
+              "confidence": 88
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "GAME COMPLETE\n\nScore\n\nTime\n\n14/14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n",
+              "confidence": 93
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:07); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "205d50c7369ce87b0227ceb1cd055cc375435c9adece0c70aaa7812c0d10b8d2",
+        "inputLabel": "GAME COMPLETE; 14/14; 1:07; título del recurso no visible en la tarjeta",
+        "ocrMs": 301,
+        "passCount": 1,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 93,
+            "text": "GAME COMPLETE\n\nScore Time\n\n14/14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n\n",
+            "elapsedMs": 301
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 14,
+          "max_score": 14,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-auto"
+            ],
+            "observations": [
+              {
+                "score": 14,
+                "maxScore": 14,
+                "valid": true,
+                "text": "14/14",
+                "pass": "full-auto",
+                "confidence": 93,
+                "region": "full"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 67,
+          "duration_source_label": "1:07",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nScore Time\n\n14/14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n\n",
+              "confidence": 93
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:07); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "PERFECTO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "SUFICIENTE",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": 14,
+          "maxScore": 14,
+          "percentage": 100,
+          "durationSeconds": 67,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": true,
+          "scoreInconsistent": false,
+          "dataInconsistent": false,
+          "ocrPassCount": 1,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nScore Time\n\n14/14 1:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nShow answers\n\nStart again\n\n",
+              "confidence": 93
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:07); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "ACREDITABLE_SEGUN_POLITICA",
+              "academicGrade": 1,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+              ],
+              "identityAssumedFromContext": true
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": 6,
+        "maxScore": 6,
+        "durationSeconds": 86,
+        "activityMatch": null
+      },
+      "visualLabel": "JUEGO COMPLETADO; 6/6; 1:26; el primer OCR leyó 6/5",
+      "v2": {
+        "ocrMs": 1563,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 6,
+          "max_score": 6,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-sparse",
+              "wide-sparse"
+            ],
+            "observations": [
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "full-sparse",
+                "confidence": 94,
+                "region": "full"
+              },
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "wide-sparse",
+                "confidence": 67,
+                "region": "wide"
+              }
+            ],
+            "invalid_observations": [
+              {
+                "pass": "full-auto",
+                "kind": "score_exceeds_maximum",
+                "value": "6/5"
+              }
+            ],
+            "single_score_observations": []
+          },
+          "score_inconsistent": true,
+          "data_inconsistent": false,
+          "duration_seconds": 86,
+          "duration_source_label": "1:26",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n6/5 1:26\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 93
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n6/6\n\n1:26\n\nOCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "NA e EEN LEA.\n| / 6 e 4\n* PUESTO EN LA TABLA Cl\n\nde clasific\n\ntrar resput\n",
+              "confidence": 63
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "e A\n\nELN\n\n/ 6\n\n. 4\n\n5 PUESTO EN LA TABLA Ci\n\nde clasific\n\ntrar resput\n",
+              "confidence": 69
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "untuacion\n\nHora\n\n6/6\n\n1:26\n\nUPAS EL 1° PUESTO EN LA TABLA CLASIFICA(\n\nabla de clasificacic\n\nMostrar respuesta\n\n4 Y PE SA Las UY + € a a | a Y ma ey 200\n",
+              "confidence": 67
+            }
+          ],
+          "warnings": [
+            "Una o más lecturas OCR produjeron fracciones imposibles; no se corrigieron por conjetura.",
+            "Se confirmó 6/6 con 2 lecturas OCR coincidentes después de descartar una fracción imposible.",
+            "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "3458fb54ad6637f386c3bc97c7800b5ff99aa21a1f523cd40bdde07c187ef78b",
+        "inputLabel": "JUEGO COMPLETADO; 6/6; 1:26; el primer OCR leyó 6/5",
+        "ocrMs": 1558,
+        "passCount": 5,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 93,
+            "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n6/5 1:26\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+            "elapsedMs": 398
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "psm": "sparse",
+            "confidence": 94,
+            "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n6/6\n\n1:26\n\nOCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+            "elapsedMs": 302
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "psm": "auto",
+            "confidence": 63,
+            "text": "NA e EEN LEA.\n| / 6 e 4\n* PUESTO EN LA TABLA Cl\n\nde clasific\n\ntrar resput\n",
+            "elapsedMs": 205
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "psm": "sparse",
+            "confidence": 69,
+            "text": "e A\n\nELN\n\n/ 6\n\n. 4\n\n5 PUESTO EN LA TABLA Ci\n\nde clasific\n\ntrar resput\n",
+            "elapsedMs": 215
+          },
+          {
+            "pass": "wide-sparse",
+            "region": "wide",
+            "psm": "sparse",
+            "confidence": 67,
+            "text": "untuacion\n\nHora\n\n6/6\n\n1:26\n\nUPAS EL 1° PUESTO EN LA TABLA CLASIFICA(\n\nabla de clasificacic\n\nMostrar respuesta\n\n4 Y PE SA Las UY + € a a | a Y ma ey 200\n",
+            "elapsedMs": 438
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 6,
+          "max_score": 6,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-sparse",
+              "wide-sparse"
+            ],
+            "observations": [
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "full-sparse",
+                "confidence": 94,
+                "region": "full"
+              },
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "wide-sparse",
+                "confidence": 67,
+                "region": "wide"
+              }
+            ],
+            "invalid_observations": [
+              {
+                "pass": "full-auto",
+                "kind": "score_exceeds_maximum",
+                "value": "6/5"
+              }
+            ],
+            "single_score_observations": []
+          },
+          "score_inconsistent": true,
+          "data_inconsistent": false,
+          "duration_seconds": 86,
+          "duration_source_label": "1:26",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n6/5 1:26\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 93
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n6/6\n\n1:26\n\nOCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "NA e EEN LEA.\n| / 6 e 4\n* PUESTO EN LA TABLA Cl\n\nde clasific\n\ntrar resput\n",
+              "confidence": 63
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "e A\n\nELN\n\n/ 6\n\n. 4\n\n5 PUESTO EN LA TABLA Ci\n\nde clasific\n\ntrar resput\n",
+              "confidence": 69
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "untuacion\n\nHora\n\n6/6\n\n1:26\n\nUPAS EL 1° PUESTO EN LA TABLA CLASIFICA(\n\nabla de clasificacic\n\nMostrar respuesta\n\n4 Y PE SA Las UY + € a a | a Y ma ey 200\n",
+              "confidence": 67
+            }
+          ],
+          "warnings": [
+            "Una o más lecturas OCR produjeron fracciones imposibles; no se corrigieron por conjetura.",
+            "Se confirmó 6/6 con 2 lecturas OCR coincidentes después de descartar una fracción imposible.",
+            "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "PERFECTO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "SUFICIENTE",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": 6,
+          "maxScore": 6,
+          "percentage": 100,
+          "durationSeconds": 86,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": true,
+          "scoreInconsistent": true,
+          "dataInconsistent": false,
+          "ocrPassCount": 5,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n6/5 1:26\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 93
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n6/6\n\n1:26\n\nOCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "NA e EEN LEA.\n| / 6 e 4\n* PUESTO EN LA TABLA Cl\n\nde clasific\n\ntrar resput\n",
+              "confidence": 63
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "e A\n\nELN\n\n/ 6\n\n. 4\n\n5 PUESTO EN LA TABLA Ci\n\nde clasific\n\ntrar resput\n",
+              "confidence": 69
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "untuacion\n\nHora\n\n6/6\n\n1:26\n\nUPAS EL 1° PUESTO EN LA TABLA CLASIFICA(\n\nabla de clasificacic\n\nMostrar respuesta\n\n4 Y PE SA Las UY + € a a | a Y ma ey 200\n",
+              "confidence": 67
+            }
+          ],
+          "warnings": [
+            "Una o más lecturas OCR produjeron fracciones imposibles; no se corrigieron por conjetura.",
+            "Se confirmó 6/6 con 2 lecturas OCR coincidentes después de descartar una fracción imposible.",
+            "El campo temporal se tomó de la tarjeta final (1:26); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "ACREDITABLE_SEGUN_POLITICA",
+              "academicGrade": 1,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+              ],
+              "identityAssumedFromContext": true
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": 127,
+        "activityMatch": null
+      },
+      "visualLabel": "GAME COMPLETE; Time 2:07; no se muestra puntuación",
+      "v2": {
+        "ocrMs": 640,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 127,
+          "duration_source_label": "2:07",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\nTime\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nTime\n\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\nps\n",
+              "confidence": 89
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "Time\n2:07\n\n1ST ON THE LEADER\n\neaderboarc\n",
+              "confidence": 91
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "Time\n\n2:07\n\n1ST ON THE LEADER\n\nseaderboarc\n\n—\n",
+              "confidence": 81
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "GAME COMPLETE\n\nTime\n\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n",
+              "confidence": 93
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (2:07); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "6192970b7e0565cf7d86289e9ea692deddc417720377a0247ccbb8341fb7027e",
+        "inputLabel": "GAME COMPLETE; Time 2:07; no se muestra puntuación",
+        "ocrMs": 311,
+        "passCount": 2,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 94,
+            "text": "GAME COMPLETE\nTime\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\n",
+            "elapsedMs": 155
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "psm": "sparse",
+            "confidence": 89,
+            "text": "GAME COMPLETE\n\nTime\n\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\nps\n",
+            "elapsedMs": 156
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 127,
+          "duration_source_label": "2:07",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\nTime\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nTime\n\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\nps\n",
+              "confidence": 89
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (2:07); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "COMPLETADO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "AMBIGUA",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": null,
+          "maxScore": null,
+          "percentage": null,
+          "durationSeconds": 127,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": null,
+          "scoreInconsistent": false,
+          "dataInconsistent": false,
+          "ocrPassCount": 2,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "GAME COMPLETE\nTime\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "GAME COMPLETE\n\nTime\n\n2:07\n\nYOU'RE 1ST ON THE LEADERBOARD\n\nLeaderboard\n\nStart again\n\nps\n",
+              "confidence": 89
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (2:07); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La imagen permite leer el cierre, pero no demuestra la puntuación máxima requerida. No se asigna cero por un dato ausente."
+              ],
+              "identityAssumedFromContext": false
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": 70,
+        "activityMatch": null
+      },
+      "visualLabel": "JUEGO COMPLETADO; Hora 1:10; no se muestra puntuación",
+      "v2": {
+        "ocrMs": 862,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 70,
+          "duration_source_label": "1:10",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "",
+              "confidence": 95
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "|\n\n| ”\n\nN LA\n\nN\n\nNn\n\n—\n\nq\n\na\n",
+              "confidence": 76
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\n\nVolver a empezar\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nVolver a empezar\n\n”\n\n—\n",
+              "confidence": 88
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "A\n\nJUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nVolver a empezar\n",
+              "confidence": 92
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:10); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "71fd941745772f0b48bcac6ae8ce08b8a6d955239a25087fefec00ed4355d905",
+        "inputLabel": "JUEGO COMPLETADO; Hora 1:10; no se muestra puntuación",
+        "ocrMs": 628,
+        "passCount": 4,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 95,
+            "text": "",
+            "elapsedMs": 83
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "psm": "sparse",
+            "confidence": 76,
+            "text": "|\n\n| ”\n\nN LA\n\nN\n\nNn\n\n—\n\nq\n\na\n",
+            "elapsedMs": 103
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "psm": "auto",
+            "confidence": 94,
+            "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\n\nVolver a empezar\n\n",
+            "elapsedMs": 218
+          },
+          {
+            "pass": "center-sparse",
+            "region": "center",
+            "psm": "sparse",
+            "confidence": 88,
+            "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nVolver a empezar\n\n”\n\n—\n",
+            "elapsedMs": 224
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 70,
+          "duration_source_label": "1:10",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "",
+              "confidence": 95
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "|\n\n| ”\n\nN LA\n\nN\n\nNn\n\n—\n\nq\n\na\n",
+              "confidence": 76
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\n\nVolver a empezar\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nVolver a empezar\n\n”\n\n—\n",
+              "confidence": 88
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:10); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "COMPLETADO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "AMBIGUA",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": null,
+          "maxScore": null,
+          "percentage": null,
+          "durationSeconds": 70,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": null,
+          "scoreInconsistent": false,
+          "dataInconsistent": false,
+          "ocrPassCount": 4,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "",
+              "confidence": 95
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "|\n\n| ”\n\nN LA\n\nN\n\nNn\n\n—\n\nq\n\na\n",
+              "confidence": 76
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\n\nVolver a empezar\n\n",
+              "confidence": 94
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "JUEGO COMPLETADO\n\nHora\n\n1:10\n\n'OCUPAS EL 2° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nVolver a empezar\n\n”\n\n—\n",
+              "confidence": 88
+            }
+          ],
+          "warnings": [
+            "El campo temporal se tomó de la tarjeta final (1:10); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La imagen permite leer el cierre, pero no demuestra la puntuación máxima requerida. No se asigna cero por un dato ausente."
+              ],
+              "identityAssumedFromContext": false
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+      "expected": {
+        "finalization": false,
+        "successfulCompletion": null,
+        "score": null,
+        "maxScore": null,
+        "durationSeconds": null,
+        "activityMatch": false
+      },
+      "visualLabel": "Actividad activa con título Características del M.P.L.; contador de progreso 6 de 6, no resultado final",
+      "v2": {
+        "ocrMs": 775,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": "Características del M.P.L.",
+          "activity_identified": true,
+          "activity_matched": false,
+          "activity_identity_source": "título alternativo visible en el OCR",
+          "finalization_detected": false,
+          "successful_completion_detected": null,
+          "finalization_reason": null,
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": null,
+          "duration_source_label": null,
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "9:55a.m. Vie 10 de abr =\n\nED) <€) wordwall.net >= e 0 +\n\ne del | = del Método... ® datos mas i... | G Mictlan Stu... G distribucion... G queesunc... e Verdadero... E flujo a cost... W Tipos de re... | Q) del... q)\n\n4\n\nWordwall Inicio Funciones Planes de precios Q Comunidad Iniciar sesión Registrarse Q Español\n\nCambiar plantilla\n\nCaracteristicas del M.P.L. e Compartir\n\nLupiuxlupiux\n\n# Editar contenido. e Imprimir <P> Incrustar Definir tarea\nUniversity || Mate || Optimization\n",
+              "confidence": 82
+            }
+          ],
+          "warnings": [],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "NO_ACREDITABLE",
+          "reasons": [
+            "La captura identifica una actividad distinta de la configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 1
+      },
+      "v3": {
+        "sourceSha256": "913dcb82aa701cd7954927b97d3aebec1e7f3c979f60dcb4af2caa8469c69428",
+        "inputLabel": "Actividad activa con título Características del M.P.L.; contador de progreso 6 de 6, no resultado final",
+        "ocrMs": 755,
+        "passCount": 1,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 82,
+            "text": "9:55a.m. Vie 10 de abr =\n\nED) <€) wordwall.net >= e 0 +\n\ne del | = del Método... ® datos mas i... | G Mictlan Stu... G distribucion... G queesunc... e Verdadero... E flujo a cost... W Tipos de re... | Q) del... q)\n\n4\n\nWordwall Inicio Funciones Planes de precios Q Comunidad Iniciar sesión Registrarse Q Español\n\nCambiar plantilla\n\nCaracteristicas del M.P.L. e Compartir\n\nLupiuxlupiux\n\n# Editar contenido. e Imprimir <P> Incrustar Definir tarea\nUniversity || Mate || Optimization\n",
+            "elapsedMs": 755
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": "Características del M.P.L.",
+          "activity_identified": true,
+          "activity_matched": false,
+          "activity_identity_source": "título alternativo visible en el OCR",
+          "finalization_detected": false,
+          "successful_completion_detected": null,
+          "finalization_reason": null,
+          "score": null,
+          "max_score": null,
+          "percentage": null,
+          "score_perfect_detected": null,
+          "score_evidence": {
+            "agreement_passes": [],
+            "observations": [],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": null,
+          "duration_source_label": null,
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "9:55a.m. Vie 10 de abr =\n\nED) <€) wordwall.net >= e 0 +\n\ne del | = del Método... ® datos mas i... | G Mictlan Stu... G distribucion... G queesunc... e Verdadero... E flujo a cost... W Tipos de re... | Q) del... q)\n\n4\n\nWordwall Inicio Funciones Planes de precios Q Comunidad Iniciar sesión Registrarse Q Español\n\nCambiar plantilla\n\nCaracteristicas del M.P.L. e Compartir\n\nLupiuxlupiux\n\n# Editar contenido. e Imprimir <P> Incrustar Definir tarea\nUniversity || Mate || Optimization\n",
+              "confidence": 82
+            }
+          ],
+          "warnings": [],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "NO_ACREDITABLE",
+          "reasons": [
+            "La captura identifica una actividad distinta de la configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "DESCONOCIDO",
+          "activityMatch": "CONTRADICHA",
+          "activityMatchEvidence": {
+            "recognizedTitle": "Características del M.P.L.",
+            "source": "título alternativo configurado en catálogo"
+          },
+          "evidenceQuality": "AMBIGUA",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": null,
+          "maxScore": null,
+          "percentage": null,
+          "durationSeconds": null,
+          "finalizationDetected": false,
+          "successfulCompletionDetected": null,
+          "scorePerfectDetected": null,
+          "scoreInconsistent": false,
+          "dataInconsistent": false,
+          "ocrPassCount": 1,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "9:55a.m. Vie 10 de abr =\n\nED) <€) wordwall.net >= e 0 +\n\ne del | = del Método... ® datos mas i... | G Mictlan Stu... G distribucion... G queesunc... e Verdadero... E flujo a cost... W Tipos de re... | Q) del... q)\n\n4\n\nWordwall Inicio Funciones Planes de precios Q Comunidad Iniciar sesión Registrarse Q Español\n\nCambiar plantilla\n\nCaracteristicas del M.P.L. e Compartir\n\nLupiuxlupiux\n\n# Editar contenido. e Imprimir <P> Incrustar Definir tarea\nUniversity || Mate || Optimization\n",
+              "confidence": 82
+            }
+          ],
+          "warnings": [],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+              "academicGrade": null,
+              "reasons": [
+                "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+              "academicGrade": null,
+              "reasons": [
+                "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+              ],
+              "identityAssumedFromContext": false
+            }
+          },
+          "selectedDecision": "EVIDENCIA_DE_OTRA_ACTIVIDAD",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "El texto visible identifica otra actividad; solicita la captura correcta y no asigna cero."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": 5,
+        "maxScore": 5,
+        "durationSeconds": 12.3,
+        "activityMatch": null
+      },
+      "visualLabel": "JUEGO COMPLETADO; Puntuación 5/5; Hora 12.3s",
+      "v2": {
+        "ocrMs": 1554,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 5,
+          "max_score": 5,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-sparse",
+              "center-auto",
+              "center-sparse",
+              "wide-sparse"
+            ],
+            "observations": [
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "full-sparse",
+                "confidence": 89,
+                "region": "full"
+              },
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "center-auto",
+                "confidence": 78,
+                "region": "center"
+              },
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "center-sparse",
+                "confidence": 80,
+                "region": "center"
+              },
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "wide-sparse",
+                "confidence": 92,
+                "region": "wide"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": [
+              {
+                "score": 55,
+                "pass": "full-auto"
+              }
+            ]
+          },
+          "score_inconsistent": true,
+          "data_inconsistent": false,
+          "duration_seconds": 12.3,
+          "duration_source_label": "12. 3",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n55 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\n£3\n\n",
+              "confidence": 91
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\nRA\n\nch\n\nKEN\n",
+              "confidence": 89
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JULOU DNI LE IA\n\nPuntuación Hora\n\n5 /5 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 78
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "JULOU DNI LE IA\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 80
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "JUEGO COMPLETADO\n\ne\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3s\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 92
+            }
+          ],
+          "warnings": [
+            "Una lectura aislada contradijo la fracción; dos lecturas de fracción coincidieron y se conserva la discrepancia como advertencia.",
+            "El campo temporal se tomó de la tarjeta final (12. 3); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "d4a32b24265f4145383f55954206cddb16320db12322fb95b5311c10acca1149",
+        "inputLabel": "JUEGO COMPLETADO; Puntuación 5/5; Hora 12.3s",
+        "ocrMs": 954,
+        "passCount": 3,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 91,
+            "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n55 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\n£3\n\n",
+            "elapsedMs": 319
+          },
+          {
+            "pass": "full-sparse",
+            "region": "full",
+            "psm": "sparse",
+            "confidence": 89,
+            "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\nRA\n\nch\n\nKEN\n",
+            "elapsedMs": 323
+          },
+          {
+            "pass": "center-auto",
+            "region": "center",
+            "psm": "auto",
+            "confidence": 78,
+            "text": "JULOU DNI LE IA\n\nPuntuación Hora\n\n5 /5 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+            "elapsedMs": 312
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 5,
+          "max_score": 5,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-sparse",
+              "center-auto"
+            ],
+            "observations": [
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "full-sparse",
+                "confidence": 89,
+                "region": "full"
+              },
+              {
+                "score": 5,
+                "maxScore": 5,
+                "valid": true,
+                "text": "5/5",
+                "pass": "center-auto",
+                "confidence": 78,
+                "region": "center"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": [
+              {
+                "score": 55,
+                "pass": "full-auto"
+              }
+            ]
+          },
+          "score_inconsistent": true,
+          "data_inconsistent": false,
+          "duration_seconds": 12.3,
+          "duration_source_label": "12. 3",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": false,
+          "uncontextualized_percent_passes": [],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n55 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\n£3\n\n",
+              "confidence": 91
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\nRA\n\nch\n\nKEN\n",
+              "confidence": 89
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JULOU DNI LE IA\n\nPuntuación Hora\n\n5 /5 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 78
+            }
+          ],
+          "warnings": [
+            "Una lectura aislada contradijo la fracción; dos lecturas de fracción coincidieron y se conserva la discrepancia como advertencia.",
+            "El campo temporal se tomó de la tarjeta final (12. 3); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "PERFECTO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "SUFICIENTE",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": 5,
+          "maxScore": 5,
+          "percentage": 100,
+          "durationSeconds": 12.3,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": true,
+          "scoreInconsistent": true,
+          "dataInconsistent": false,
+          "ocrPassCount": 3,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación Hora\n\n55 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\n£3\n\n",
+              "confidence": 91
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "JUEGO COMPLETADO\n\nPuntuación\n\nHora\n\n5/5\n\n12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\nRA\n\nch\n\nKEN\n",
+              "confidence": 89
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "JULOU DNI LE IA\n\nPuntuación Hora\n\n5 /5 12. 3\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACION\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n",
+              "confidence": 78
+            }
+          ],
+          "warnings": [
+            "Una lectura aislada contradijo la fracción; dos lecturas de fracción coincidieron y se conserva la discrepancia como advertencia.",
+            "El campo temporal se tomó de la tarjeta final (12. 3); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "ACREDITABLE_SEGUN_POLITICA",
+              "academicGrade": 1,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+              ],
+              "identityAssumedFromContext": true
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    },
+    {
+      "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+      "expected": {
+        "finalization": true,
+        "successfulCompletion": true,
+        "score": 6,
+        "maxScore": 6,
+        "durationSeconds": 43.5,
+        "activityMatch": null
+      },
+      "visualLabel": "JUEGO COMPLETADO; Puntuación 6/6; Hora 43.5s; 61% en la barra del teléfono",
+      "v2": {
+        "ocrMs": 4862,
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 6,
+          "max_score": 6,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-auto",
+              "center-auto"
+            ],
+            "observations": [
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "full-auto",
+                "confidence": 85,
+                "region": "full"
+              },
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "center-auto",
+                "confidence": 89,
+                "region": "center"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 43.5,
+          "duration_source_label": "43. 5s",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": true,
+          "uncontextualized_percent_passes": [
+            "full-auto",
+            "full-sparse"
+          ],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "< Cámara 9:17a.m. Mié 22 de abr\n\n9\n\n61% @\n\nInicia en\n\nJUEGO COMPLETADO\n\nPuntuación Hora\n\n6 /6 43. 5s\n\n'OCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\nITA\n11na > AI\n\nhb’\n\nA cp) NK\n",
+              "confidence": 85
+            },
+            {
+              "pass": "full-sparse",
+              "region": "full",
+              "text": "< Cámara 9:17a.m. Mié 22 de abr\n\n= 619€)\n\n|\n\n—\n\n—\n\n——\n\n——\n\n—\n\n—\n\n=—\n\na\n\ne\n\ne\n\n2\n\nli\n\n4\n\n|\n\nCl\n\nn\n\nQQ ~\n\nra oy\n\na\n\nIn\n\non\n\nNo ©\n\na\n\nPs |\n\n~ |\n\nY V\n\n419\n\nYale\n\nv\n\nm1\n\nal\n\n=\n\n© P~\n\nAa\n\n11\n\nNA\n\ne\n\n7\n\nen\n\nWe\n\n=\n\nele\n\nPod |\n\nY\n\na\n\n1019\n\n-\n\nre\n\n. o\n\n~ 7%\n\n£:\n\n1\n\n41\n\nicia\n\nho\n\n10\n\nIl\n\nx7\n\n\\\n\nde\n\nAN\n\nlas\n\nrad Yo\n\nAL\n\na\n\nLo)\n\nJUEGO COMPLETADO\n\nEY\n\nle\n\n€\n\nce\n\ncnc)\n\n> )\n\nT\n\nAL\n\nón\n\nPuntuación\n\nHora\n\n6s\n\n43. 5s\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\n\n—\n\n—\n\n—\n\n—\n\noo\n\n>=\n\nTabla de clasificación\n\ny=\n\nce\n\nY\n\n11\n\n~~ YA\n\nDE El\n\n£5\n\nY\n\na\n\n(SY ALO\n\na\n\nMostrar respuestas\n\n>\n\n=\n\nde\n\n1 ¢\n\nAS\n\nca\n\n=>\n\nT\n\nximo\n\n[>\n\nLa\n\nr\n\nE“.\n\npy\n\nNY\n\nVolver a empezar\n\n215\n\n14\n\nNn\n\nOo\n\ne cde\n\nencu\n\nVa Cn\n\nLCL\n\na\n\nULV\n\nCiii11i1 aL\n\n11\n\n4 CAN\n\n-~\n\n—\n\n|\n\nde\n\n7.\n\nUuici\n\ne\n\na\n\nd\n\n1 de\n\n-\n\n£\n\nY...\n\nYa\n\n..\n\nTn\n\n(124\n\nt\n\ny il\n\n>\n\nin\n\naClOll\n\ny\n\nL\n\n|\n\n)Y (\n\nv%\n\n)\n\n7\n\necto\n\n% i\n\nñ\n\na\n\n1)\n\ny\n\nI\n\nPa\n\nA\n\nI\n\nIB\n\n-\n\ned\n\nLA\n\nI\n\na\n\nNL\n\nNK\n\nch\n\nAR\n",
+              "confidence": 62
+            },
+            {
+              "pass": "center-auto",
+              "region": "center",
+              "text": "TUD LELIILILILCAL\nn y termina en\n\nJUEGO COMPLETADO\n\nPuntuación Hora\n\n6 /6 43. 55\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\n| Mostrar respuestas\n\nVolver a empezar ix\ne e!\nde (izquierda d\n1 a derecha) Nu\n",
+              "confidence": 89
+            },
+            {
+              "pass": "center-sparse",
+              "region": "center",
+              "text": "TUD UEIIILILICAL\n\ny termina en\n\naleleale\n\nJUEGO COMPLETADO\n\nin\n\nPuntuación\n\nHora\n\n6s\n\n43. 5s\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\n\nTabla de clasificación\n\nMostrar respuestas\n\nVolver a empezar\n\nI\n\ne!\n\nDUDO\n\nde\n\n(izquierda\n\nel\n\na derecha)\n",
+              "confidence": 83
+            },
+            {
+              "pass": "wide-sparse",
+              "region": "wide",
+              "text": "Se elige\n\nInicia en\n\nSe calculan\n\nal menor y\n\nnodo terminal\n\ntiempos\n\ne encuentran\n\ny termina en\n\naleleale\n\nlejanos de\n\nlas holguras\n\nclasificacion\n\nJUEGO COMPLETADO\n\niniciación y €\n\nde arcos)\n\nterminación\n\nPuntuación\n\nHora\n\n6s\n\n43. 5s\n\nOCUPAS EL 1° PUESTO EN LA TABLA CLASIFICACIÓN\n\n—==\n\n—\n\nTabla de clasificación\n\nSe calculan\n\nMostrar respuestas\n\nSe elige al\n\ntiempos\n\nmáximo y s\n\nVolver a empezar\n\nencuentra l\n\nróximos de\n\nUU\n\nciación y de\n\nduración de\n\nerminación\n\n(izquierda\n\na derecha)\n\n| un proyecta\n\nUY 4\n\nSe.” TTT A\n",
+              "confidence": 83
+            }
+          ],
+          "warnings": [
+            "Se ignoró uno o más porcentajes sin etiqueta académica cercana; pueden pertenecer a la interfaz o al sistema operativo.",
+            "El campo temporal se tomó de la tarjeta final (43. 5s); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "passes": 5
+      },
+      "v3": {
+        "sourceSha256": "45f268068d4cad610043be4d7691f94a2004770fe1b8fccff925094560b7eb80",
+        "inputLabel": "JUEGO COMPLETADO; Puntuación 6/6; Hora 43.5s; 61% en la barra del teléfono",
+        "ocrMs": 636,
+        "passCount": 1,
+        "readings": [
+          {
+            "pass": "full-auto",
+            "region": "full",
+            "psm": "auto",
+            "confidence": 85,
+            "text": "< Cámara 9:17a.m. Mié 22 de abr\n\n9\n\n61% @\n\nInicia en\n\nJUEGO COMPLETADO\n\nPuntuación Hora\n\n6 /6 43. 5s\n\n'OCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\nITA\n11na > AI\n\nhb’\n\nA cp) NK\n",
+            "elapsedMs": 636
+          }
+        ],
+        "parsed": {
+          "provider": "wordwall",
+          "configured_activity": {
+            "provider": "wordwall",
+            "id": "22610275",
+            "title": "Método de M Grande"
+          },
+          "activity_recognized": null,
+          "activity_identified": false,
+          "activity_matched": null,
+          "activity_identity_source": null,
+          "finalization_detected": true,
+          "successful_completion_detected": true,
+          "finalization_reason": "frase explícita de juego/actividad completada",
+          "score": 6,
+          "max_score": 6,
+          "percentage": 100,
+          "score_perfect_detected": true,
+          "score_evidence": {
+            "agreement_passes": [
+              "full-auto"
+            ],
+            "observations": [
+              {
+                "score": 6,
+                "maxScore": 6,
+                "valid": true,
+                "text": "6/6",
+                "pass": "full-auto",
+                "confidence": 85,
+                "region": "full"
+              }
+            ],
+            "invalid_observations": [],
+            "single_score_observations": []
+          },
+          "score_inconsistent": false,
+          "data_inconsistent": false,
+          "duration_seconds": 43.5,
+          "duration_source_label": "43. 5s",
+          "timer_remaining_seconds": null,
+          "feedback_only": false,
+          "uncontextualized_percent_ignored": true,
+          "uncontextualized_percent_passes": [
+            "full-auto"
+          ],
+          "evidence_authenticated": false,
+          "ocr_passes": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "< Cámara 9:17a.m. Mié 22 de abr\n\n9\n\n61% @\n\nInicia en\n\nJUEGO COMPLETADO\n\nPuntuación Hora\n\n6 /6 43. 5s\n\n'OCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\nITA\n11na > AI\n\nhb’\n\nA cp) NK\n",
+              "confidence": 85
+            }
+          ],
+          "warnings": [
+            "Se ignoró uno o más porcentajes sin etiqueta académica cercana; pueden pertenecer a la interfaz o al sistema operativo.",
+            "El campo temporal se tomó de la tarjeta final (43. 5s); no se asume que otros mm:ss sean duración."
+          ],
+          "selected_rule": "PUNTUACION_PERFECTA",
+          "decision": "INDETERMINADO",
+          "reasons": [
+            "No se pudo vincular visualmente la captura con la actividad configurada."
+          ],
+          "authenticity_warning": "OCR no verifica identidad, origen ni integridad de la captura."
+        },
+        "evidence": {
+          "provider": "wordwall",
+          "activityId": "wordwall-metodo-m-grande",
+          "activityTitle": "Método de M Grande",
+          "originalUrl": "https://wordwall.net/resource/22610275/m%C3%A9todo-de-m-grande",
+          "gymId": "gimnasio-optimizacion-i-demo",
+          "gradingPolicy": "PUNTUACION_PERFECTA",
+          "resultStatus": "PERFECTO",
+          "activityMatch": "NO_COMPROBADA",
+          "activityMatchEvidence": {
+            "recognizedTitle": null,
+            "source": null
+          },
+          "evidenceQuality": "SUFICIENTE",
+          "verificationMode": "STRICT",
+          "allowContextualEvidence": true,
+          "score": 6,
+          "maxScore": 6,
+          "percentage": 100,
+          "durationSeconds": 43.5,
+          "finalizationDetected": true,
+          "successfulCompletionDetected": true,
+          "scorePerfectDetected": true,
+          "scoreInconsistent": false,
+          "dataInconsistent": false,
+          "ocrPassCount": 1,
+          "ocrText": [
+            {
+              "pass": "full-auto",
+              "region": "full",
+              "text": "< Cámara 9:17a.m. Mié 22 de abr\n\n9\n\n61% @\n\nInicia en\n\nJUEGO COMPLETADO\n\nPuntuación Hora\n\n6 /6 43. 5s\n\n'OCUPAS EL 1? PUESTO EN LA TABLA CLASIFICACIÓN\nTabla de clasificación\nMostrar respuestas\n\nVolver a empezar\n\nITA\n11na > AI\n\nhb’\n\nA cp) NK\n",
+              "confidence": 85
+            }
+          ],
+          "warnings": [
+            "Se ignoró uno o más porcentajes sin etiqueta académica cercana; pueden pertenecer a la interfaz o al sistema operativo.",
+            "El campo temporal se tomó de la tarjeta final (43. 5s); no se asume que otros mm:ss sean duración."
+          ],
+          "authenticityVerified": false,
+          "decisions": {
+            "STRICT": {
+              "mode": "STRICT",
+              "decision": "REQUIERE_NUEVA_EVIDENCIA",
+              "academicGrade": null,
+              "reasons": [
+                "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+              ],
+              "identityAssumedFromContext": false
+            },
+            "CONTEXTUAL": {
+              "mode": "CONTEXTUAL",
+              "decision": "ACREDITABLE_SEGUN_POLITICA",
+              "academicGrade": 1,
+              "reasons": [
+                "Se usa el contexto de la página de actividad aprobado en el catálogo; la identidad de la captura no quedó comprobada visualmente.",
+                "La captura muestra finalización y una fracción válida con puntos iguales al máximo."
+              ],
+              "identityAssumedFromContext": true
+            }
+          },
+          "selectedDecision": "REQUIERE_NUEVA_EVIDENCIA",
+          "simulatedAcademicGrade": null,
+          "selectedMode": "STRICT",
+          "selectedReasons": [
+            "La captura no muestra identidad visual suficiente para asociarla con esta actividad."
+          ],
+          "identityAssumedFromContext": false,
+          "operationsWarning": "Esta salida simula una decisión; no es una calificación real ni una verificación antifraude."
+        }
+      }
+    }
+  ]
+}

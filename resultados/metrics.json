@@ -1,0 +1,985 @@
+{
+  "generatedAt": "2026-10-26T08:21:37.821Z",
+  "engine": "Tesseract.js 7.0.0",
+  "dataset": {
+    "imageFiles": 30,
+    "originalFiles": 16,
+    "variantFiles": 14,
+    "byteUniqueFiles": 28,
+    "uniqueOriginalScreenshots": 14,
+    "exactDuplicateOriginals": 2,
+    "baselineRepetitionsPerImage": 3,
+    "baselineRuns": 90,
+    "variantsCountedAsIndependent": false,
+    "documentedEarlierRunCount": 2,
+    "runProvenanceNote": "El resumen previo describe dos corridas: una finalizó con 3 y otra quedó en una respuesta incorrecta. La carpeta también contiene cierres con 0 puntos y las revisiones no fijan su pertenencia a una corrida. Las capturas únicas no se presentan como partidas independientes."
+  },
+  "fields": {
+    "activityTitle": {
+      "correct": 2,
+      "total": 2,
+      "accuracy": 1,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-container-inicio.png",
+          "expected": "Método de M Grande",
+          "predicted": "Método de M Grande",
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-embed-inicio.png",
+          "expected": "Método de M Grande",
+          "predicted": "Método de M Grande",
+          "correct": true,
+          "repetitions": 3
+        }
+      ]
+    },
+    "score": {
+      "correct": 1,
+      "total": 9,
+      "accuracy": 0.1111111111111111,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-ronda-error-start.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-error-feedback.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-feedback-correcto.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+          "expected": 3,
+          "predicted": 3,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-1.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-2.png",
+          "expected": 2,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-respuesta-correcta.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-resultado-ronda-2.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-feedback.png",
+          "expected": 2,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        }
+      ]
+    },
+    "scoreFinalOnly": {
+      "correct": 1,
+      "total": 2,
+      "accuracy": 0.5,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+          "expected": 3,
+          "predicted": 3,
+          "correct": true
+        },
+        {
+          "image": "capturas/originales/wordwall-resultado-ronda-2.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false
+        }
+      ]
+    },
+    "runningCounter": {
+      "correct": 0,
+      "total": 7,
+      "accuracy": 0,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-ronda-error-start.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-error-feedback.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-feedback-correcto.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-1.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-2.png",
+          "expected": 2,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-respuesta-correcta.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-feedback.png",
+          "expected": 2,
+          "predicted": null,
+          "correct": false
+        }
+      ]
+    },
+    "finished": {
+      "correct": 12,
+      "total": 13,
+      "accuracy": 0.9230769230769231,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-container-inicio.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-start.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-embed-inicio.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-error-feedback.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-feedback-correcto.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+          "expected": true,
+          "predicted": true,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-1.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-2.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-error-run.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-respuesta-correcta.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-resultado-ronda-2.png",
+          "expected": true,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-feedback.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-prompt.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        }
+      ]
+    },
+    "timerRemainingSeconds": {
+      "correct": 7,
+      "total": 7,
+      "accuracy": 1,
+      "checks": [
+        {
+          "image": "capturas/originales/wordwall-ronda-error-start.png",
+          "expected": 118,
+          "predicted": 118,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-error-feedback.png",
+          "expected": 106,
+          "predicted": 106,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-feedback-correcto.png",
+          "expected": 79,
+          "predicted": 79,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-1.png",
+          "expected": 99,
+          "predicted": 99,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-prompt-2.png",
+          "expected": 54,
+          "predicted": 54,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-respuesta-correcta.png",
+          "expected": 80,
+          "predicted": 80,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/originales/wordwall-ronda-error-feedback.png",
+          "expected": 67,
+          "predicted": 67,
+          "correct": true,
+          "repetitions": 3
+        }
+      ]
+    },
+    "maxScore": {
+      "accuracy": null,
+      "referenceCases": 0,
+      "recognizedInBaseline": 0,
+      "note": "El máximo no aparece en ninguna imagen de referencia; la exactitud no se puede estimar."
+    },
+    "percentage": {
+      "accuracy": null,
+      "referenceCases": 0,
+      "recognizedInBaseline": 0,
+      "note": "No hay porcentaje ni denominador nativo visible."
+    },
+    "durationSeconds": {
+      "accuracy": null,
+      "referenceCases": 0,
+      "recognizedInBaseline": 0,
+      "note": "El temporizador en curso es una cuenta regresiva; ninguna captura muestra duración de resolución."
+    }
+  },
+  "classification": {
+    "correct": 13,
+    "total": 14,
+    "accuracy": 0.9285714285714286,
+    "checks": [
+      {
+        "image": "capturas/originales/wordwall-container-control.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "c346ac533bee9ca9e8e4eaff5ffeb34b820d8e4d40ca0a3cbf20b50eb5665fce"
+      },
+      {
+        "image": "capturas/originales/wordwall-container-inicio.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "4b5ab0255e4358dc3d21466aa6fdb101637ceac4f327d40079b7ecc1434463fe"
+      },
+      {
+        "image": "capturas/originales/wordwall-ronda-error-start.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "8f88ace0541303a31457c936632aac799abdb05ece08d25b8801a2bcf57d84bf"
+      },
+      {
+        "image": "capturas/originales/wordwall-embed-inicio.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "e8ada6fc74b1e2c80820c7cb9aa61d5189e55837ef662da5590e94c1eeb8a07a"
+      },
+      {
+        "image": "capturas/originales/wordwall-error-feedback.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "1831b62bb885814bf63ed8cc91a9de7098632ec331b8f61abbcf4c6471715682"
+      },
+      {
+        "image": "capturas/originales/wordwall-feedback-correcto.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "a7b2e678f715b057058121994fffd54591c6b50df5c0c9a0bb1e37848898ac8c"
+      },
+      {
+        "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "89f898b39d5161367d3635beb26730180bb29620137cf5591e724537a44369e7"
+      },
+      {
+        "image": "capturas/originales/wordwall-prompt-1.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "b05cc2af0dc0ac936b79b57c33d73f151957db763afcd5149070746a23b6d098"
+      },
+      {
+        "image": "capturas/originales/wordwall-prompt-2.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "814cd968ab13206ff99f6ff9d375b7a664af8c57749b0faa8feee6de3b694f7d"
+      },
+      {
+        "image": "capturas/originales/wordwall-prompt-error-run.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "998d5303a0de0b71ab9ba318a54ed99454caa2df26a5fb9821d0918c6b1c7746"
+      },
+      {
+        "image": "capturas/originales/wordwall-respuesta-correcta.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "c230208e5746be2d1db020d0e8f765564a5264eabfcea8ad825cd80001d5fdd5"
+      },
+      {
+        "image": "capturas/originales/wordwall-resultado-ronda-2.png",
+        "expected": "no_acreditable",
+        "predicted": "indeterminado",
+        "correct": false,
+        "sourceCaptureId": "b00eb6dfd5afad038bf198c2e31218e389485c71d2a9088999467f51e1bd9fe7"
+      },
+      {
+        "image": "capturas/originales/wordwall-ronda-error-feedback.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "6a63aa4f8741d5d5272f09acedd966551e4b75e3c1e2c9ac64134c9b8736fa86"
+      },
+      {
+        "image": "capturas/originales/wordwall-ronda-error-prompt.png",
+        "expected": "indeterminado",
+        "predicted": "indeterminado",
+        "correct": true,
+        "sourceCaptureId": "f69e2decd5c6b77187feddfede544242afd00e8f97316180cee570c5cbd1f9e8"
+      }
+    ],
+    "counts": {
+      "indeterminado": 14
+    },
+    "falsePositives": [],
+    "perfectCases": 0,
+    "falseNegatives": null,
+    "indeterminate": 14,
+    "note": "Exactitud de tres clases sobre 14 capturas originales únicas por hash. La muestra está dominada por casos indeterminados y no contiene capturas perfectas."
+  },
+  "variants": {
+    "files": 14,
+    "score": {
+      "correct": 4,
+      "total": 12,
+      "accuracy": 0.3333333333333333,
+      "checks": [
+        {
+          "image": "capturas/variantes/v03-acierto-contraste-bajo.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v04-acierto-resize-40.png",
+          "expected": 1,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v05-error-jpeg-q25.jpg",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v06-error-resize-50.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v07-final3-resize-40.png",
+          "expected": 3,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v08-final3-jpeg-q30.jpg",
+          "expected": 3,
+          "predicted": 3,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v09-final3-gris-contraste-bajo.png",
+          "expected": 3,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v10-final3-recorte-centro.png",
+          "expected": 3,
+          "predicted": 3,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v11-final0-jpeg-q35.jpg",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v12-partida-contraste-bajo.png",
+          "expected": 0,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v13-final0-recorte-centro.png",
+          "expected": 0,
+          "predicted": 0,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v14-final3-upscale-2x.png",
+          "expected": 3,
+          "predicted": 3,
+          "correct": true,
+          "repetitions": 3
+        }
+      ]
+    },
+    "finished": {
+      "correct": 10,
+      "total": 14,
+      "accuracy": 0.7142857142857143,
+      "checks": [
+        {
+          "image": "capturas/variantes/v01-inicio-resize-50.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v02-inicio-jpeg-q35.jpg",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v03-acierto-contraste-bajo.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v04-acierto-resize-40.png",
+          "expected": false,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v05-error-jpeg-q25.jpg",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v06-error-resize-50.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v07-final3-resize-40.png",
+          "expected": true,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v08-final3-jpeg-q30.jpg",
+          "expected": true,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v09-final3-gris-contraste-bajo.png",
+          "expected": true,
+          "predicted": true,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v10-final3-recorte-centro.png",
+          "expected": true,
+          "predicted": true,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v11-final0-jpeg-q35.jpg",
+          "expected": true,
+          "predicted": null,
+          "correct": false,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v12-partida-contraste-bajo.png",
+          "expected": false,
+          "predicted": false,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v13-final0-recorte-centro.png",
+          "expected": true,
+          "predicted": true,
+          "correct": true,
+          "repetitions": 3
+        },
+        {
+          "image": "capturas/variantes/v14-final3-upscale-2x.png",
+          "expected": true,
+          "predicted": true,
+          "correct": true,
+          "repetitions": 3
+        }
+      ]
+    },
+    "note": "Cada variante se deriva de un original y se evalúa aparte; no aumenta el número de partidas."
+  },
+  "ablation": {
+    "languageComparison": {
+      "spa": {
+        "images": 4,
+        "repetitionsPerImage": 3,
+        "score": {
+          "correct": 3,
+          "total": 9,
+          "accuracy": 0.3333333333333333,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 177.91666666666666
+        },
+        "title": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 177.91666666666666
+        },
+        "finished": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 1,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 177.91666666666666
+        }
+      },
+      "eng": {
+        "images": 4,
+        "repetitionsPerImage": 3,
+        "score": {
+          "correct": 3,
+          "total": 9,
+          "accuracy": 0.3333333333333333,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 176.16666666666666
+        },
+        "title": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 176.16666666666666
+        },
+        "finished": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 1,
+          "avgConfidence": 82.5,
+          "meanRecognitionMs": 176.16666666666666
+        }
+      },
+      "spa+eng": {
+        "images": 4,
+        "repetitionsPerImage": 3,
+        "score": {
+          "correct": 3,
+          "total": 9,
+          "accuracy": 0.3333333333333333,
+          "avgConfidence": 84.75,
+          "meanRecognitionMs": 218.91666666666666
+        },
+        "title": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 84.75,
+          "meanRecognitionMs": 218.91666666666666
+        },
+        "finished": {
+          "correct": 12,
+          "total": 12,
+          "accuracy": 1,
+          "avgConfidence": 84.75,
+          "meanRecognitionMs": 218.91666666666666
+        }
+      }
+    },
+    "fullVsRegion": [
+      {
+        "image": "capturas/originales/wordwall-fin-por-tiempo-puntuacion-3.png",
+        "region": "full",
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1,
+        "avgConfidence": 91,
+        "meanRecognitionMs": 277.3333333333333,
+        "finished": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 91,
+          "meanRecognitionMs": 277.3333333333333
+        }
+      },
+      {
+        "image": "capturas/variantes/v10-final3-recorte-centro.png",
+        "region": "central-crop",
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1,
+        "avgConfidence": 83,
+        "meanRecognitionMs": 193,
+        "finished": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 83,
+          "meanRecognitionMs": 193
+        }
+      },
+      {
+        "image": "capturas/originales/wordwall-resultado-ronda-1.png",
+        "region": "full",
+        "correct": 0,
+        "total": 3,
+        "accuracy": 0,
+        "avgConfidence": 95,
+        "meanRecognitionMs": 34,
+        "finished": {
+          "correct": 0,
+          "total": 3,
+          "accuracy": 0,
+          "avgConfidence": 95,
+          "meanRecognitionMs": 34
+        }
+      },
+      {
+        "image": "capturas/variantes/v13-final0-recorte-centro.png",
+        "region": "central-crop",
+        "correct": 3,
+        "total": 3,
+        "accuracy": 1,
+        "avgConfidence": 95,
+        "meanRecognitionMs": 122.33333333333333,
+        "finished": {
+          "correct": 3,
+          "total": 3,
+          "accuracy": 1,
+          "avgConfidence": 95,
+          "meanRecognitionMs": 122.33333333333333
+        }
+      }
+    ],
+    "segmentation": [
+      {
+        "psm": "auto",
+        "region": "full",
+        "repetitions": 6,
+        "correct": 3,
+        "total": 6,
+        "accuracy": 0.5,
+        "avgConfidence": 93,
+        "meanRecognitionMs": 155.66666666666666,
+        "finished": {
+          "correct": 3,
+          "total": 6,
+          "accuracy": 0.5,
+          "avgConfidence": 93,
+          "meanRecognitionMs": 155.66666666666666
+        }
+      },
+      {
+        "psm": "auto",
+        "region": "central-crop",
+        "repetitions": 6,
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1,
+        "avgConfidence": 89,
+        "meanRecognitionMs": 157.66666666666666,
+        "finished": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1,
+          "avgConfidence": 89,
+          "meanRecognitionMs": 157.66666666666666
+        }
+      },
+      {
+        "psm": "sparse",
+        "region": "full",
+        "repetitions": 6,
+        "correct": 3,
+        "total": 6,
+        "accuracy": 0.5,
+        "avgConfidence": 57,
+        "meanRecognitionMs": 235.83333333333334,
+        "finished": {
+          "correct": 3,
+          "total": 6,
+          "accuracy": 0.5,
+          "avgConfidence": 57,
+          "meanRecognitionMs": 235.83333333333334
+        }
+      },
+      {
+        "psm": "sparse",
+        "region": "central-crop",
+        "repetitions": 6,
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1,
+        "avgConfidence": 86.5,
+        "meanRecognitionMs": 178.66666666666666,
+        "finished": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1,
+          "avgConfidence": 86.5,
+          "meanRecognitionMs": 178.66666666666666
+        }
+      },
+      {
+        "psm": "block",
+        "region": "full",
+        "repetitions": 6,
+        "correct": 0,
+        "total": 6,
+        "accuracy": 0,
+        "avgConfidence": 62,
+        "meanRecognitionMs": 498.3333333333333,
+        "finished": {
+          "correct": 3,
+          "total": 6,
+          "accuracy": 0.5,
+          "avgConfidence": 62,
+          "meanRecognitionMs": 498.3333333333333
+        }
+      },
+      {
+        "psm": "block",
+        "region": "central-crop",
+        "repetitions": 6,
+        "correct": 6,
+        "total": 6,
+        "accuracy": 1,
+        "avgConfidence": 80,
+        "meanRecognitionMs": 189.66666666666666,
+        "finished": {
+          "correct": 6,
+          "total": 6,
+          "accuracy": 1,
+          "avgConfidence": 80,
+          "meanRecognitionMs": 189.66666666666666
+        }
+      },
+      {
+        "psm": "line",
+        "region": "full",
+        "repetitions": 6,
+        "correct": 0,
+        "total": 6,
+        "accuracy": 0,
+        "avgConfidence": 72.5,
+        "meanRecognitionMs": 137.5,
+        "finished": {
+          "correct": 0,
+          "total": 6,
+          "accuracy": 0,
+          "avgConfidence": 72.5,
+          "meanRecognitionMs": 137.5
+        }
+      },
+      {
+        "psm": "line",
+        "region": "central-crop",
+        "repetitions": 6,
+        "correct": 0,
+        "total": 6,
+        "accuracy": 0,
+        "avgConfidence": 0,
+        "meanRecognitionMs": 12,
+        "finished": {
+          "correct": 0,
+          "total": 6,
+          "accuracy": 0,
+          "avgConfidence": 0,
+          "meanRecognitionMs": 12
+        }
+      }
+    ],
+    "numericWhitelist": {
+      "runs": 6,
+      "note": "Una lectura de solo dígitos pierde el contexto semántico del número y no sirve por sí sola para decidir que es la puntuación."
+    }
+  },
+  "repeatStability": {
+    "files": 30,
+    "totalFiles": 30
+  },
+  "runtime": {
+    "runs": 90,
+    "meanMs": 164.61111111111111,
+    "medianMs": 181,
+    "p95Ms": 279,
+    "minMs": 24,
+    "maxMs": 367,
+    "workerLoads": [
+      {
+        "language": "spa+eng",
+        "startupMs": 148,
+        "measuredAt": "2026-10-26T08:18:34.211Z"
+      },
+      {
+        "language": "spa",
+        "startupMs": 95,
+        "measuredAt": "2026-10-26T08:18:49.133Z"
+      },
+      {
+        "language": "eng",
+        "startupMs": 96,
+        "measuredAt": "2026-10-26T08:18:51.366Z"
+      },
+      {
+        "language": "spa+eng",
+        "startupMs": 154,
+        "measuredAt": "2026-10-26T08:18:53.636Z"
+      }
+    ],
+    "note": "Tiempos tomados con modelos en caché, en este Mac; la primera descarga de idioma no quedó medida como fría."
+  }
+}

@@ -1,0 +1,483 @@
+{
+  "generatedAt": "2026-10-26T23:12:33.042Z",
+  "realCaptureCount": 7,
+  "syntheticFixturesCount": 8,
+  "syntheticAndRealMetricsAreSeparate": true,
+  "activityAssociation": {
+    "confirmedTarget": 0,
+    "contradictedOther": 1,
+    "notProven": 6
+  },
+  "real": {
+    "v2": {
+      "finalization": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": false,
+            "actual": false,
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          }
+        ]
+      },
+      "scoreAndMaximum": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": [
+              14,
+              14
+            ],
+            "actual": [
+              14,
+              14
+            ],
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": [
+              6,
+              6
+            ],
+            "actual": [
+              6,
+              6
+            ],
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": [
+              5,
+              5
+            ],
+            "actual": [
+              5,
+              5
+            ],
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": [
+              6,
+              6
+            ],
+            "actual": [
+              6,
+              6
+            ],
+            "correct": true
+          }
+        ],
+        "scoreBearingOriginals": 4,
+        "exactOnScoreBearing": 4
+      },
+      "durationSeconds": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": 67,
+            "actual": 67,
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": 86,
+            "actual": 86,
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": 127,
+            "actual": 127,
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": 70,
+            "actual": 70,
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": null,
+            "actual": null,
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": 12.3,
+            "actual": 12.3,
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": 43.5,
+            "actual": 43.5,
+            "correct": true
+          }
+        ]
+      },
+      "latency": {
+        "runs": 7,
+        "meanMs": 1614,
+        "perImageMs": [
+          1039,
+          1563,
+          640,
+          862,
+          775,
+          1554,
+          4862
+        ],
+        "medianMs": 1039,
+        "p95Ms": 4862,
+        "workerStartupMs": 138
+      },
+      "strict": {
+        "accredited": 0,
+        "indeterminate": 6
+      }
+    },
+    "v3": {
+      "finalization": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": false,
+            "actual": false,
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": true,
+            "actual": true,
+            "correct": true
+          }
+        ]
+      },
+      "scoreAndMaximum": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": [
+              14,
+              14
+            ],
+            "actual": [
+              14,
+              14
+            ],
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": [
+              6,
+              6
+            ],
+            "actual": [
+              6,
+              6
+            ],
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": [
+              null,
+              null
+            ],
+            "actual": [
+              null,
+              null
+            ],
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": [
+              5,
+              5
+            ],
+            "actual": [
+              5,
+              5
+            ],
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": [
+              6,
+              6
+            ],
+            "actual": [
+              6,
+              6
+            ],
+            "correct": true
+          }
+        ]
+      },
+      "durationSeconds": {
+        "correct": 7,
+        "total": 7,
+        "checks": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "expected": 67,
+            "actual": 67,
+            "correct": true
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "expected": 86,
+            "actual": 86,
+            "correct": true
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "expected": 127,
+            "actual": 127,
+            "correct": true
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "expected": 70,
+            "actual": 70,
+            "correct": true
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "expected": null,
+            "actual": null,
+            "correct": true
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "expected": 12.3,
+            "actual": 12.3,
+            "correct": true
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "expected": 43.5,
+            "actual": 43.5,
+            "correct": true
+          }
+        ]
+      },
+      "strictDecisionCounts": {
+        "REQUIERE_NUEVA_EVIDENCIA": 6,
+        "EVIDENCIA_DE_OTRA_ACTIVIDAD": 1
+      },
+      "contextualDecisionCounts": {
+        "ACREDITABLE_SEGUN_POLITICA": 4,
+        "REQUIERE_NUEVA_EVIDENCIA": 2,
+        "EVIDENCIA_DE_OTRA_ACTIVIDAD": 1
+      },
+      "contextualCreditCandidates": 4,
+      "strictCredits": 0,
+      "needsNewEvidence": 3,
+      "latency": {
+        "runs": 7,
+        "perImageMs": [
+          301,
+          1558,
+          311,
+          628,
+          755,
+          954,
+          636
+        ],
+        "meanMs": 735,
+        "medianMs": 636,
+        "p95Ms": 1558,
+        "workerStartupMs": 141
+      },
+      "passCount": {
+        "perImage": [
+          {
+            "filename": "502520625_1776704309722784_7132065207234610608_n.jpg",
+            "passes": 1
+          },
+          {
+            "filename": "502659386_1776704603056088_1315337432682346843_n.jpg",
+            "passes": 5
+          },
+          {
+            "filename": "502894640_1776704659722749_9069794045164404486_n.jpg",
+            "passes": 2
+          },
+          {
+            "filename": "648486875_3527993500687030_7669972222099876856_n.jpg",
+            "passes": 4
+          },
+          {
+            "filename": "668735316_3560284134124633_2430121770357727659_n.jpg",
+            "passes": 1
+          },
+          {
+            "filename": "669057693_3560298867456493_8527792582857064610_n.jpg",
+            "passes": 3
+          },
+          {
+            "filename": "678843972_3572603309559382_7185679338146825106_n.jpg",
+            "passes": 1
+          }
+        ],
+        "total": 17
+      }
+    }
+  },
+  "adversarialSynthetic": {
+    "total": 8,
+    "crossActivityCases": 5,
+    "contextualMisattributions": 4,
+    "contextualFalsePositiveCredits": 3,
+    "contextualWrongZeros": 1,
+    "duplicateByteIdentity": true,
+    "duplicateCanBeDistinguishedWithoutVisualSignal": false,
+    "strictCreditsForCrossActivity": 0
+  },
+  "caveat": "Cero créditos falsos observados en siete capturas reales no es garantía. Los fixtures sintéticos muestran el riesgo de atribución del contexto cuando la identidad no aparece en la imagen."
+}

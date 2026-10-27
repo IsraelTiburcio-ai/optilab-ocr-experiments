@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f6fb">
+  <title>OptiLab · OCR experimental V3.1</title>
+  <link rel="stylesheet" href="./styles-v31.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand-mark" aria-hidden="true">O</div>
+      <div class="heading"><p class="eyebrow">EXPERIMENTO LOCAL INDEPENDIENTE</p><h1>OCR de resultados · V3.1</h1><p class="lede">Prueba formatos, evidencia final y límites de lectura con Tesseract.js en este navegador.</p></div>
+      <a class="report-link" href="./REPORTE-OPTILAB-OCR-V31.md">Reporte</a>
+    </header>
+
+    <aside class="notice"><strong>Solo experimento.</strong> No se conecta a OptiLab, Firebase ni servicios externos de OCR. La imagen se procesa localmente y no se guarda en esta página. <b>LearningApps queda fuera del OCR:</b> usa sus eventos de finalización, que no demuestran perfección ni autenticidad.</aside>
+
+    <section class="panel input-panel" aria-labelledby="input-title">
+      <div class="section-heading"><div><p class="eyebrow">CAPTURA → OCR → EVIDENCIA</p><h2 id="input-title">Selecciona una imagen</h2></div><span class="pill">spa + eng · modelos locales</span></div>
+      <div class="input-grid">
+        <label class="field" for="dataset-image"><span>Capturas aptas del conjunto local</span>
+          <select id="dataset-image" disabled><option value="">Primero carga la carpeta de origen…</option></select>
+        </label>
+        <label class="field" for="image-file"><span>O elegir una imagen del dispositivo</span>
+          <input id="image-file" type="file" accept="image/*">
+        </label>
+      </div>
+      <div class="folder-picker"><label for="dataset-folder" class="button quiet">Cargar imágenes de «Pruebas para ocr»</label><input id="dataset-folder" type="file" multiple accept="image/*"><span id="folder-status" class="helper">Elige los 11 archivos aptos dentro de la carpeta original. Se usan en memoria; no se copian.</span></div>
+      <p class="helper">El conjunto incluye 7 capturas Wordwall de regresión y 4 formatos nuevos observados. El selector filtra por nombre y solo ejecuta OCR en esos 11 archivos; LearningApps y procedencias ambiguas quedan excluidos. No cargues capturas de LearningApps: usa su integración de eventos. Una imagen propia no tiene etiqueta visual salvo coincidencia exacta con el inventario.</p>
+      <div id="selected-wrap" class="selected-wrap" hidden>
+        <div class="preview-box"><img id="preview" alt="Vista previa temporal de la imagen seleccionada"><div id="preview-meta" class="preview-meta"></div></div>
+        <div class="capture-info"><p class="eyebrow">ETIQUETA VISUAL DE REFERENCIA</p><h3 id="capture-name">—</h3><div id="reference-status" class="reference-status">Sin ejecutar OCR.</div>
+          <div id="reference-grid" class="reference-grid"></div>
+          <div class="actions"><button id="analyze" class="button primary" type="button">Ejecutar OCR local</button><button id="discard" class="button quiet" type="button">Quitar imagen</button></div>
+          <p id="progress" class="progress" role="status" aria-live="polite" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="result-panel" class="panel result-panel" hidden aria-labelledby="result-heading">
+      <div class="section-heading"><div><p class="eyebrow">RESULTADO ESTRUCTURADO</p><h2 id="result-heading">Evidencia que leyó el OCR</h2></div><span id="latency" class="pill">—</span></div>
+      <div class="result-grid">
+        <article><span>Plantilla</span><strong id="template">—</strong></article>
+        <article><span>Finalización</span><strong id="finalization">—</strong></article>
+        <article><span>Puntuación / máximo</span><strong id="score">—</strong></article>
+        <article><span>Perfección numérica</span><strong id="perfect">—</strong></article>
+        <article><span>Tiempo</span><strong id="duration">—</strong></article>
+        <article><span>Piezas (metadato)</span><strong id="pieces">—</strong></article>
+        <article><span>Proveedor</span><strong id="provider">—</strong></article>
+        <article><span>Identidad de actividad</span><strong id="identity">—</strong></article>
+        <article><span>Calidad de evidencia</span><strong id="quality">—</strong></article>
+      </div>
+      <div class="distinction"><strong>Tres verificaciones separadas:</strong> detectar una pantalla final no prueba resultado perfecto. Un score perfecto visible tampoco demuestra quién jugó ni que la captura sea auténtica. Esta demo no emite calificación académica.</div>
+      <div class="reason-columns"><section><h3>Por qué se clasificó así</h3><ul id="reasons"></ul></section><section><h3>Advertencias</h3><ul id="warnings"></ul></section></div>
+      <details class="ocr-details"><summary>Texto OCR y relecturas adaptativas</summary><div id="readings"></div></details>
+      <details class="json-details"><summary>Salida JSON completa</summary><pre id="structured-output"></pre></details>
+    </section>
+
+    <section class="panel benchmark-panel" aria-labelledby="benchmark-title">
+      <div class="section-heading"><div><p class="eyebrow">REPRODUCIBILIDAD</p><h2 id="benchmark-title">Benchmark local del conjunto</h2></div><span id="benchmark-state" class="pill">Listo para ejecutar</span></div>
+      <p>Ejecuta OCR de nuevo sobre las 11 capturas permitidas. Las siete Wordwall son regresión; cuatro imágenes nuevas ya se usaron para ajustar reglas y por eso su retest es calibración, no validación independiente. Los 14 fixtures sintéticos de exactitud se muestran aparte; el fixture de estrés de 6000×4000 queda fuera de exactitud.</p>
+      <div class="actions"><button id="run-benchmark" class="button primary" type="button">Ejecutar benchmark real (11 imágenes)</button><button id="run-synthetic" class="button quiet" type="button">Ejecutar benchmark sintético (14 fixtures)</button><button id="download-benchmark" class="button quiet" type="button" disabled>Descargar resultado JSON</button></div>
+      <div id="benchmark-progress" class="progress" role="status" aria-live="polite" hidden></div>
+      <div id="benchmark-summary" class="benchmark-summary" hidden></div>
+      <div class="table-wrap"><table><thead><tr><th>Grupo</th><th>Finalización</th><th>Score</th><th>Tiempo</th><th>Piezas</th><th>Latencia</th><th>Pasadas</th></tr></thead><tbody id="benchmark-rows"></tbody></table></div>
+      <div id="synthetic-summary" class="benchmark-summary" hidden></div>
+      <p class="helper">Las cuatro nuevas capturas corresponden a dos resultados de rompecabezas, un cierre Genially y un contador 5/5 ambiguo. No se contabiliza el duplicado. Las salidas indeterminadas se reportan como abstenciones. El OCR no se ejecuta sobre LearningApps.</p>
+    </section>
+
+    <section class="panel mobile-panel">
+      <div class="section-heading"><div><p class="eyebrow">PREPARACIÓN MÓVIL</p><h2>Recursos y acceso de prueba</h2></div></div>
+      <p>El procesamiento reduce el lado más largo a 2400 px y amplía imágenes pequeñas hasta 3×. El canvas de una captura 6000×4000 se estima en 14.6 MiB RGBA; no incluye la memoria adicional del navegador, Tesseract o la imagen original. Los canvases OCR se liberan después de leer.</p>
+      <details><summary>Probar desde el celular en la misma red local</summary><ol><li>En la Mac, desde la carpeta del experimento, ejecuta <code>npm run serve:v31:lan</code>.</li><li>En Terminal, consulta la IP local con <code>ipconfig getifaddr en0</code> (si usas otra interfaz, revisa su IP local).</li><li>Abre <code>http://IP-DE-LA-MAC:4176/index-v31.html</code> en Safari o Chrome móvil mientras ambos dispositivos estén en una red privada de confianza.</li><li>En iPhone Safari, elige la imagen desde Fotos/Archivos. Para terminar, detén el servidor con Ctrl+C.</li></ol><p>La sesión actual no tiene un iPhone o Android para probar. La página no publica la aplicación.</p></details>
+    </section>
+
+    <footer><p>V3.1 conserva las páginas V1, V2 y V3. Todo el texto OCR se clasifica como evidencia técnica experimental.</p><p><a href="./README-OPTILAB-OCR-V31.md">README</a> · <a href="./resultados/benchmark-v31.json">Benchmark guardado</a> · <a href="./capturas/inventario-v31.json">Inventario</a></p></footer>
+  </main>
+  <script type="module" src="./src/app-v31.mjs"></script>
+</body>
+</html>

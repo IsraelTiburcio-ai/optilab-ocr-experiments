@@ -1,0 +1,53 @@
+{
+  "datasetType": "SINTÉTICO — fixtures generados para evaluar límites de atribución; no son capturas de partidas reales",
+  "fixtures": [
+    {
+      "filename": "synthetic-visible-other-title.png",
+      "truth": "other",
+      "case": "título visible de otra actividad",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-generic-target.png",
+      "truth": "target",
+      "case": "resultado final genérico sin título, actividad objetivo simulada",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-generic-cross-game-duplicate.png",
+      "truth": "other",
+      "case": "misma imagen exacta, pero se declara actividad fuente distinta",
+      "duplicateOf": "synthetic-generic-target.png"
+    },
+    {
+      "filename": "synthetic-cropped-only-fraction.png",
+      "truth": "unknown",
+      "case": "recorte 6/6 sin cierre ni nombre",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-other-perfect-4of4.png",
+      "truth": "other",
+      "case": "otra plantilla/puntuación perfecta 4/4 sin título",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-other-nonperfect-8of10.png",
+      "truth": "other",
+      "case": "otra actividad sin título con resultado final no perfecto 8/10",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-no-final-result.png",
+      "truth": "unknown",
+      "case": "sin resultado final",
+      "duplicateOf": null
+    },
+    {
+      "filename": "synthetic-battery-cross-activity.png",
+      "truth": "other",
+      "case": "otra actividad genérica, 6/6 y batería 61%",
+      "duplicateOf": null
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "Etiquetas visuales independientes para las siete capturas Wordwall seleccionadas. Los originales permanecen en Descargas y no se copian al experimento.",
+  "targetActivity": { "provider": "wordwall", "activityId": "22610275", "title": "Método de M Grande" },
+  "images": [
+    { "filename": "502520625_1776704309722784_7132065207234610608_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": 14, "maxScore": 14, "durationSeconds": 67, "activityMatch": null }, "visualLabel": "GAME COMPLETE; 14/14; 1:07; título del recurso no visible en la tarjeta" },
+    { "filename": "502659386_1776704603056088_1315337432682346843_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": 6, "maxScore": 6, "durationSeconds": 86, "activityMatch": null }, "visualLabel": "JUEGO COMPLETADO; 6/6; 1:26; el primer OCR leyó 6/5" },
+    { "filename": "502894640_1776704659722749_9069794045164404486_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": null, "maxScore": null, "durationSeconds": 127, "activityMatch": null }, "visualLabel": "GAME COMPLETE; Time 2:07; no se muestra puntuación" },
+    { "filename": "648486875_3527993500687030_7669972222099876856_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": null, "maxScore": null, "durationSeconds": 70, "activityMatch": null }, "visualLabel": "JUEGO COMPLETADO; Hora 1:10; no se muestra puntuación" },
+    { "filename": "668735316_3560284134124633_2430121770357727659_n.jpg", "expected": { "finalization": false, "successfulCompletion": null, "score": null, "maxScore": null, "durationSeconds": null, "activityMatch": false }, "visualLabel": "Actividad activa con título Características del M.P.L.; contador de progreso 6 de 6, no resultado final" },
+    { "filename": "669057693_3560298867456493_8527792582857064610_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": 5, "maxScore": 5, "durationSeconds": 12.3, "activityMatch": null }, "visualLabel": "JUEGO COMPLETADO; Puntuación 5/5; Hora 12.3s" },
+    { "filename": "678843972_3572603309559382_7185679338146825106_n.jpg", "expected": { "finalization": true, "successfulCompletion": true, "score": 6, "maxScore": 6, "durationSeconds": 43.5, "activityMatch": null }, "visualLabel": "JUEGO COMPLETADO; Puntuación 6/6; Hora 43.5s; 61% en la barra del teléfono" }
+  ]
+}
